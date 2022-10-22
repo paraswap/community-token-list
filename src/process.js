@@ -31,11 +31,19 @@ async function downloadLists() {
 
       if (fs.existsSync(`${TmpDir}/${filename}.json`)) {
         const tokens = fs.readFileSync(`${TmpDir}/${filename}.json`, 'utf-8');
-        return { filename, list: JSON.parse(tokens) };
+        return {
+          filename, list: JSON.parse(tokens.map(({ chainId, address, symbol, name, decimals, logoURI }) => ({
+            chainId, address, symbol, name, decimals, logoURI
+          })))
+        };
       }
 
       const { data } = await axios.get(url);
-      return { filename, list: data.tokens };
+      return {
+        filename, list: data.tokens.map(({ chainId, address, symbol, name, decimals, logoURI }) => ({
+          chainId, address, symbol, name, decimals, logoURI
+        }))
+      };
     })
 
   )
@@ -51,7 +59,9 @@ async function processLists() {
   try {
     createTmpDir();
 
-    const tokenLists = _(await downloadLists()).map(({ list }) => list).flatten().value();
+    const tokenLists = _(await downloadLists()).map(({ list }) => list)
+                        .flatten().uniqBy('address')
+                        .filter(t => t.symbol.length < 6 && t.name.length < 15).value();
 
     const tokensByChain = Object.keys(chains).reduce((acc, chainId) => {
       acc[chainId] = tokenLists.filter(t => t.chainId === parseInt(chainId));
@@ -97,6 +107,7 @@ async function buildList(tokensByChain) {
         return t1.chainId < t2.chainId ? -1 : 1;
       }),
   };
+
   return list;
 }
 
@@ -109,8 +120,12 @@ async function process() {
     SaveJSON(ParaSwapList, list);
 
   } catch (error) {
-    console.log('Error processing', error);
+    console.error('Error processing', error);
   }
 }
 
-process();
+module.exports = {
+  process,
+  processLists,
+  buildList
+}
