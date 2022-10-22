@@ -11,13 +11,20 @@ labels: token request
 
 **Please provide the following information for your token.**
 
-Token Name (from token contract): 
-Token Decimals (from token contract): 
-Token Symbol (from token contract): 
-Token Addresss by chain (chainID: Address):
-1.  Etherem, 0xABCD
-2.  Polygon, 0x1234
-3.  ....
+Token infos by chain:
+````
+ [
+    {
+        "chainId": {CHAIN_ID},
+        "address": "{TOKEN_ADDRESS}",
+        "symbol": "{TOKEN_SYMBOL}",
+        "name": "{TOKEN_NAME}",
+        "decimals": {TOKEN_DECIMALS},
+        "logoURI": "{LOGO_URI}"
+    },
+]
+````
+List of supported chains: [chains.json](https://github.com/paraswap/community-token-list/blob/master/src/sources/chains.json "Supprted Chains").
 
 Link to the official homepage of token:
 

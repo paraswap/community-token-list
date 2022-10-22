@@ -7,6 +7,7 @@ const { getAddress } = require('@ethersproject/address');
 const { version } = require("../package.json");
 const lists = require('./sources/lists.json');
 const chains = require('./sources/chains.json');
+const communityList = require('./sources/community-token-requests.json');
 
 const TmpDir = `${__dirname}/sources/tmp`;
 const TokensDir = `${__dirname}/sources/tokens`;
@@ -59,6 +60,7 @@ async function processLists() {
     createTmpDir();
 
     const tokenLists = _(await downloadLists()).map(({ list }) => list)
+      .concat(communityList)
       .flatten()
       .uniqBy('address')
       .filter(t => t.symbol.length < 6 && t.name.length < 15).value();
