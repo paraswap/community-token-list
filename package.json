@@ -1,0 +1,9 @@
+{
+  "name": "@paraswap/community-token-list",
+  "version": "1.0.0",
+  "repository": "git@github.com:paraswap/community-token-list.git",
+  "license": "MIT",
+  "devDependencies": {
+    "json-beautify": "^1.1.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "1": "mainnet",
+    "10": "optimism",
+    "56": "bnb",
+    "137": "polygon",
+    "250": "fantom",
+    "42161": "arbitrum",
+    "43114": "avalanche"
+}

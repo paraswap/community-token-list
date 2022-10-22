@@ -1,0 +1,70 @@
+[
+    {
+        "url": "https://www.gemini.com/uniswap/manifest.json",
+        "filename": "gemini"
+    },
+    {
+        "url": "https://tokenlist-aave-eth.ipns.dweb.link/",
+        "filename": "aave"
+    },
+    {
+        "url": "https://tokens.coingecko.com/uniswap/all.json",
+        "filename": "coingecko"
+    },
+    {
+        "url": "https://gateway.ipfs.io/ipns/tokens.uniswap.org",
+        "filename": "uniswap_default"
+    },
+    {
+        "url": "https://tokenlist-zerion-eth.ipns.dweb.link/",
+        "filename": "zerion"
+    },
+    {
+        "url": "https://t2crtokens-eth.ipns.dweb.link/",
+        "filename": "kleros"
+    },
+    {
+        "url": "https://unpkg.com/quickswap-default-token-list@latest/build/quickswap-default.tokenlist.json",
+        "filename": "quickswap"
+    },
+    {
+        "url": "https://unpkg.com/@cometh-game/default-token-list@latest/build/comethswap-default.tokenlist.json",
+        "filename": "comethswap_default"
+    },
+    {
+        "url": "https://gateway.pinata.cloud/ipfs/QmPs3EX688haEMgp49QLqoKApMukU6yaaApRr6C6ax1kWZ",
+        "filename": "jarvis"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/dfyn/new-host/main/list-token.tokenlist.json",
+        "filename": "dfyn_default"
+    },
+    {
+        "url": "https://tokens.pancakeswap.finance/pancakeswap-extended.json",
+        "filename": "pancakeswap_extended"
+    },
+    {
+        "url": "https://tokens.pancakeswap.finance/pancakeswap-top-100.json",
+        "filename": "pancakeswap_top_100"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/pangolindex/tokenlists/main/pangolin.tokenlist.json",
+        "filename": "pangolin_avax"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/joe.tokenlist.json",
+        "filename": "trader_joe_default"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/SpookySwap/spooky-info/master/src/constants/token/spookyswap.json",
+        "filename": "spookyswap_default"
+    },
+    {
+        "url": "https://bridge.arbitrum.io/token-list-42161.json",
+        "filename": "arbitrum_tokens_list"
+    },
+    {
+        "url": "https://static.optimism.io/optimism.tokenlist.json",
+        "filename": "optimism_tokens_list"
+    }
+]
