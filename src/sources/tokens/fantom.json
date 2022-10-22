@@ -33,7 +33,7 @@
   },
   {
     "chainId": 250,
-    "address": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+    "address": "0x74b23882a30290451A17c44f4F05243b6b58C76d",
     "symbol": "ETH",
     "name": "Wrapped Ether",
     "decimals": 18,
@@ -41,7 +41,7 @@
   },
   {
     "chainId": 250,
-    "address": "0x7a4b1abc1409c69c2ed71ab34dae43e2ff6f9928",
+    "address": "0x7a4b1aBC1409C69c2ed71Ab34daE43E2Ff6f9928",
     "symbol": "DFYN",
     "name": "Dfyn Token",
     "decimals": 18,
@@ -113,14 +113,6 @@
   },
   {
     "chainId": 250,
-    "address": "0xf16e81dce15B08F326220742020379B855B87DF9",
-    "symbol": "ICE",
-    "name": "IceToken",
-    "decimals": 18,
-    "logoURI": "https://assets.spooky.fi/tokens/ICE.png"
-  },
-  {
-    "chainId": 250,
     "address": "0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8",
     "symbol": "LINK",
     "name": "ChainLink",
@@ -134,14 +126,6 @@
     "name": "Sushi",
     "decimals": 18,
     "logoURI": "https://assets.spooky.fi/tokens/SUSHI.png"
-  },
-  {
-    "chainId": 250,
-    "address": "0x74b23882a30290451A17c44f4F05243b6b58C76d",
-    "symbol": "wETH",
-    "name": "Wrapped Ether",
-    "decimals": 18,
-    "logoURI": "https://assets.spooky.fi/tokens/wETH.png"
   },
   {
     "chainId": 250,
@@ -601,14 +585,6 @@
   },
   {
     "chainId": 250,
-    "address": "0x65Def5029A0e7591e46B38742bFEdd1Fb7b24436",
-    "symbol": "KAE",
-    "name": "Kanpeki",
-    "decimals": 18,
-    "logoURI": "https://assets.spooky.fi/tokens/KAE.png"
-  },
-  {
-    "chainId": 250,
     "address": "0x582423C10c9e83387a96d00A69bA3D11ee47B7b5",
     "symbol": "RING",
     "name": "OneRing",
@@ -846,14 +822,6 @@
     "name": "Raid Token",
     "decimals": 18,
     "logoURI": "https://assets.spooky.fi/tokens/R4ID.png"
-  },
-  {
-    "chainId": 250,
-    "address": "0xDE5ed76E7c05eC5e4572CfC88d1ACEA165109E44",
-    "symbol": "DEUS",
-    "name": "DEUS",
-    "decimals": 18,
-    "logoURI": "https://assets.spooky.fi/tokens/DEUS.png"
   },
   {
     "chainId": 250,

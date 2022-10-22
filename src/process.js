@@ -2,6 +2,7 @@ const _ = require('lodash');
 const axios = require('axios');
 const fs = require('fs');
 const beautify = require('json-beautify');
+const {getAddress} = require('@ethersproject/address');
 
 const { version } = require("../package.json");
 const lists = require('./sources/lists.json');
@@ -28,12 +29,11 @@ function SaveJSON(path, obj) {
 async function downloadLists() {
   const tokenLists = await Promise.all(
     lists.map(async ({ url, filename }) => {
-
       if (fs.existsSync(`${TmpDir}/${filename}.json`)) {
         const tokens = fs.readFileSync(`${TmpDir}/${filename}.json`, 'utf-8');
         return {
           filename, list: JSON.parse(tokens.map(({ chainId, address, symbol, name, decimals, logoURI }) => ({
-            chainId, address, symbol, name, decimals, logoURI
+            chainId, address: getAddress(address), symbol, name, decimals, logoURI
           })))
         };
       }
@@ -41,11 +41,10 @@ async function downloadLists() {
       const { data } = await axios.get(url);
       return {
         filename, list: data.tokens.map(({ chainId, address, symbol, name, decimals, logoURI }) => ({
-          chainId, address, symbol, name, decimals, logoURI
+          chainId, address: getAddress(address), symbol, name, decimals, logoURI
         }))
       };
     })
-
   )
 
   tokenLists.forEach(({ filename, list }) => {
@@ -60,8 +59,8 @@ async function processLists() {
     createTmpDir();
 
     const tokenLists = _(await downloadLists()).map(({ list }) => list)
-                        .flatten().uniqBy('address')
-                        .filter(t => t.symbol.length < 6 && t.name.length < 15).value();
+      .flatten().uniqBy('address')
+      .filter(t => t.symbol.length < 6 && t.name.length < 15).value();
 
     const tokensByChain = Object.keys(chains).reduce((acc, chainId) => {
       acc[chainId] = tokenLists.filter(t => t.chainId === parseInt(chainId));

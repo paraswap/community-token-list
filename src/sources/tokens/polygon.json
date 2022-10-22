@@ -1273,22 +1273,6 @@
   },
   {
     "chainId": 137,
-    "address": "0xd6A5aB46ead26f49b03bBB1F9EB1Ad5c1767974a",
-    "symbol": "EMON",
-    "name": "EthermonToken",
-    "decimals": 18,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9651.png"
-  },
-  {
-    "chainId": 137,
-    "address": "0x59E9261255644c411AfDd00bD89162d09D862e38",
-    "symbol": "ETHA",
-    "name": "ETHA",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/14141/small/etha_logo200x200.png?1614646986"
-  },
-  {
-    "chainId": 137,
     "address": "0x34C1b299A74588D6Abdc1b85A53345A48428a521",
     "symbol": "EZ",
     "name": "EASY V2",
@@ -1326,14 +1310,6 @@
     "name": "FireStarter",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/17359/small/Logo_black_%282%29.png?1634095075"
-  },
-  {
-    "chainId": 137,
-    "address": "0x7f280daC515121DcdA3EaC69eB4C13a52392CACE",
-    "symbol": "FNC",
-    "name": "Fancy Games",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/21367/small/fnc.png?1639025576"
   },
   {
     "chainId": 137,
@@ -1697,14 +1673,6 @@
   },
   {
     "chainId": 137,
-    "address": "0xEe9801669C6138E84bD50dEB500827b776777d28",
-    "symbol": "O3",
-    "name": "O3 Swap Token",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/15460/small/o3.png?1620904316"
-  },
-  {
-    "chainId": 137,
     "address": "0x4e830F67Ec499E69930867f9017AEb5B3f629c73",
     "symbol": "ODDZ",
     "name": "OddzToken",
@@ -1814,14 +1782,6 @@
     "name": "ParaSwap",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/20403/small/ep7GqM19_400x400.jpg?1636979120"
-  },
-  {
-    "chainId": 137,
-    "address": "0x430EF9263E76DAE63c84292C3409D61c598E9682",
-    "symbol": "PYR",
-    "name": "PYR Token",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/14770/small/1617088937196.png?1619414736"
   },
   {
     "chainId": 137,
@@ -1942,14 +1902,6 @@
     "name": "99Starz",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/21467/small/n1fqEYRI_400x400.png?1639345175"
-  },
-  {
-    "chainId": 137,
-    "address": "0x6286A9e6f7e745A6D884561D88F94542d6715698",
-    "symbol": "TECH",
-    "name": "Cryptomeda",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/17983/small/tech.png?1654330771"
   },
   {
     "chainId": 137,
@@ -2126,14 +2078,6 @@
     "name": "WOWswap",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/14101/small/Group-423.png?1614317472"
-  },
-  {
-    "chainId": 137,
-    "address": "0xD5d86FC8d5C0Ea1aC1Ac5Dfab6E529c9967a45E9",
-    "symbol": "WRLD",
-    "name": "NFT Worlds",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/22112/small/ZyBrRgfO.jpg?1640842284"
   },
   {
     "chainId": 137,
@@ -2401,14 +2345,6 @@
   },
   {
     "chainId": 137,
-    "address": "0x9C78EE466D6Cb57A4d01Fd887D2b5dFb2D46288f",
-    "symbol": "MUST",
-    "name": "Must",
-    "decimals": 18,
-    "logoURI": "https://etherscan.io/token/images/cometh_32.png"
-  },
-  {
-    "chainId": 137,
     "address": "0xfb65ef42F7c8A70ff73F627DB6E9ba2Aff1F20fa",
     "symbol": "NDR",
     "name": "NodeRunners",
@@ -2569,7 +2505,7 @@
   },
   {
     "chainId": 137,
-    "address": "0x980111ae1b84e50222c8843e3a7a038f36fecd2b",
+    "address": "0x980111ae1B84E50222C8843e3A7a038F36Fecd2b",
     "symbol": "STACK",
     "name": "StackOS",
     "decimals": 18,
@@ -2593,19 +2529,11 @@
   },
   {
     "chainId": 137,
-    "address": "0x2a82437475a60bebd53e33997636fade77604fc2",
+    "address": "0x2a82437475A60BebD53e33997636fadE77604fc2",
     "symbol": "CIRUS",
     "name": "Cirus",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/aion-ollie/new-host/icon/cirus_logo_256.png"
-  },
-  {
-    "chainId": 137,
-    "address": "0xc3fdbadc7c795ef1d6ba111e06ff8f16a20ea539",
-    "symbol": "ADDY",
-    "name": "ADDY",
-    "decimals": 18,
-    "logoURI": "https://polygonscan.com/token/images/adamant_32.png"
   },
   {
     "chainId": 137,
@@ -2625,14 +2553,6 @@
   },
   {
     "chainId": 137,
-    "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
-    "symbol": "USDT",
-    "name": "USDT",
-    "decimals": 6,
-    "logoURI": "https://seeklogo.com/images/T/tether-usdt-logo-FA55C7F397-seeklogo.com.png"
-  },
-  {
-    "chainId": 137,
     "address": "0xeCDCB5B88F8e3C15f95c720C51c71c9E2080525d",
     "symbol": "WBNB",
     "name": "WBNB",
@@ -2649,27 +2569,11 @@
   },
   {
     "chainId": 137,
-    "address": "0xc91c06db0f7bffba61e2a5645cc15686f0a8c828",
-    "symbol": "RAZOR",
-    "name": "Razor",
-    "decimals": 18,
-    "logoURI": "https://etherscan.io/token/images/razornetwork_32.png"
-  },
-  {
-    "chainId": 137,
     "address": "0xF6F85b3f9fd581C2eE717c404F7684486F057F95",
     "symbol": "NORD",
     "name": "NORD",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/13630/small/nord.jpg?1610465136"
-  },
-  {
-    "chainId": 137,
-    "address": "0x41b3966b4ff7b427969ddf5da3627d6aeae9a48e",
-    "symbol": "NEXO",
-    "name": "Nexo",
-    "decimals": 18,
-    "logoURI": "https://cryptologos.cc/logos/nexo-nexo-logo.svg"
   },
   {
     "chainId": 137,
@@ -2697,7 +2601,7 @@
   },
   {
     "chainId": 137,
-    "address": "0x67480287cb3715d1d9429b38772c71d6e94c16da",
+    "address": "0x67480287CB3715D1d9429B38772c71d6E94C16da",
     "symbol": "UNN",
     "name": "Union",
     "decimals": 18,
@@ -2705,15 +2609,7 @@
   },
   {
     "chainId": 137,
-    "address": "0xa79e0bfc579c709819f4a0e95d4597f03093b011",
-    "symbol": "STR",
-    "name": "Stater",
-    "decimals": 18,
-    "logoURI": "https://etherscan.io/token/images/stater_32.png"
-  },
-  {
-    "chainId": 137,
-    "address": "0x4fdce518fe527439fe76883e6b51a1c522b61b7c",
+    "address": "0x4fdCE518fE527439Fe76883e6b51A1c522B61b7C",
     "symbol": "COR",
     "name": "Coreto",
     "decimals": 18,
@@ -2753,7 +2649,7 @@
   },
   {
     "chainId": 137,
-    "address": "0x033d942a6b495c4071083f4cde1f17e986fe856c",
+    "address": "0x033d942A6b495C4071083f4CDe1f17e986FE856c",
     "symbol": "AGA",
     "name": "AGA",
     "decimals": 4,
@@ -2761,7 +2657,7 @@
   },
   {
     "chainId": 137,
-    "address": "0xf84bd51eab957c2e7b7d646a3427c5a50848281d",
+    "address": "0xF84BD51eab957c2e7B7D646A3427C5A50848281D",
     "symbol": "AGAr",
     "name": "AGAr",
     "decimals": 8,
@@ -2777,7 +2673,7 @@
   },
   {
     "chainId": 137,
-    "address": "0xa7305ae84519ff8be02484cda45834c4e7d13dd6",
+    "address": "0xA7305Ae84519fF8Be02484CdA45834C4E7D13Dd6",
     "symbol": "UFARM",
     "name": "Unifarm Token",
     "decimals": 18,
@@ -2801,14 +2697,6 @@
   },
   {
     "chainId": 137,
-    "address": "0x968F6f898a6Df937fC1859b323aC2F14643e3fED",
-    "symbol": "NWC",
-    "name": "Newscrypto",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/9805/small/Tu1_NI3s_%281%29.png?1614745476"
-  },
-  {
-    "chainId": 137,
     "address": "0x75455c3DE45dD32CBE9a5aD5E518D3D50823c976",
     "symbol": "vDFYN",
     "name": "vDFYN",
@@ -2817,15 +2705,7 @@
   },
   {
     "chainId": 137,
-    "address": "0xfbdd194376de19a88118e84e279b977f165d01b8",
-    "symbol": "BIFI",
-    "name": "beefy.finance",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/images/single-assets/BIFI.png"
-  },
-  {
-    "chainId": 137,
-    "address": "0x2ce13e4199443fdfff531abb30c9b6594446bbc7",
+    "address": "0x2CE13E4199443FDfFF531ABb30c9B6594446bbC7",
     "symbol": "RVF",
     "name": "Rocket Vault",
     "decimals": 18,
@@ -2833,7 +2713,7 @@
   },
   {
     "chainId": 137,
-    "address": "0x083c56d87ead73d6231c165ec450c6e28f3399c9",
+    "address": "0x083c56d87eAD73D6231C165Ec450C6E28f3399C9",
     "symbol": "CHART",
     "name": "ChartEx",
     "decimals": 18,
@@ -2849,7 +2729,7 @@
   },
   {
     "chainId": 137,
-    "address": "0x5dd175a4242afe19e5c1051d8cd13fc8979f2329",
+    "address": "0x5dD175A4242afE19e5c1051d8cd13Fc8979f2329",
     "symbol": "RVRS",
     "name": "Reverse",
     "decimals": 9,
@@ -2857,7 +2737,7 @@
   },
   {
     "chainId": 137,
-    "address": "0xdab35042e63e93cc8556c9bae482e5415b5ac4b1",
+    "address": "0xdaB35042e63E93Cc8556c9bAE482E5415B5Ac4B1",
     "symbol": "IRIS",
     "name": "IRIS",
     "decimals": 18,
@@ -2865,23 +2745,7 @@
   },
   {
     "chainId": 137,
-    "address": "0x0d6ae2a429df13e44a07cd2969e085e4833f64a0",
-    "symbol": "PBR",
-    "name": "PolkaBridge",
-    "decimals": 18,
-    "logoURI": "https://i.imgur.com/DWEwZ26.jpeg"
-  },
-  {
-    "chainId": 137,
-    "address": "0x04b33078ea1aef29bf3fb29c6ab7b200c58ea126",
-    "symbol": "SAFLE",
-    "name": "Safle",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/21674/small/56835021.png"
-  },
-  {
-    "chainId": 137,
-    "address": "0x3c5a5885f6ee4acc2597069fe3c19f49c6efba96",
+    "address": "0x3c5A5885F6EE4aCC2597069FE3C19F49c6EfBA96",
     "symbol": "KRIDA",
     "name": "Krida Fans",
     "decimals": 18,
@@ -2889,7 +2753,7 @@
   },
   {
     "chainId": 137,
-    "address": "0x0a307bd521701f9d70fb29bfa9e2e36dc998dadb",
+    "address": "0x0A307BD521701F9D70FB29BfA9E2e36DC998daDB",
     "symbol": "CNW",
     "name": "CoinWealth",
     "decimals": 6,
@@ -2913,7 +2777,7 @@
   },
   {
     "chainId": 137,
-    "address": "0xe52509181feb30eb4979e29ec70d50fd5c44d590",
+    "address": "0xE52509181FEb30EB4979E29EC70D50FD5C44D590",
     "symbol": "ARTH",
     "name": "ARTH",
     "decimals": 18,
@@ -2921,7 +2785,7 @@
   },
   {
     "chainId": 137,
-    "address": "0xedd6ca8a4202d4a36611e2fff109648c4863ae19",
+    "address": "0xeDd6cA8A4202d4a36611e2fff109648c4863ae19",
     "symbol": "MAHA",
     "name": "MahaDAO",
     "decimals": 18,

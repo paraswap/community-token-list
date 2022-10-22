@@ -1,7 +1,7 @@
 [
   {
     "chainId": 56,
-    "address": "0x6855f7bb6287f94ddcc8915e37e73a3c9fee5cf3",
+    "address": "0x6855f7bb6287F94ddcC8915E37e73a3c9fEe5CF3",
     "symbol": "STACK",
     "name": "StackOS",
     "decimals": 18,
@@ -9,7 +9,7 @@
   },
   {
     "chainId": 56,
-    "address": "0x73afc23510b40dcbeabc25ffbc8c2976ed9f950c",
+    "address": "0x73afC23510b40dcbEABc25fFBc8C2976eD9f950c",
     "symbol": "SAFLE",
     "name": "Safle",
     "decimals": 18,
@@ -49,7 +49,7 @@
   },
   {
     "chainId": 56,
-    "address": "0x85dab10c3ba20148ca60c2eb955e1f8ffe9eaa79",
+    "address": "0x85daB10c3BA20148cA60C2eb955e1F8ffE9eAa79",
     "symbol": "ARTH",
     "name": "ARTH",
     "decimals": 18,
@@ -62,14 +62,6 @@
     "name": "Easy",
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/7332.png"
-  },
-  {
-    "chainId": 56,
-    "address": "0xFeea0bDd3D07eb6FE305938878C0caDBFa169042",
-    "symbol": "8PAY",
-    "name": "8PAY Network",
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/0xFeea0bDd3D07eb6FE305938878C0caDBFa169042.png"
   },
   {
     "chainId": 56,
@@ -281,14 +273,6 @@
   },
   {
     "chainId": 56,
-    "address": "0xBe1a001FE942f96Eea22bA08783140B9Dcc09D28",
-    "symbol": "BETA",
-    "name": "Beta Finance",
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/0xBe1a001FE942f96Eea22bA08783140B9Dcc09D28.png"
-  },
-  {
-    "chainId": 56,
     "address": "0x250632378E573c6Be1AC2f97Fcdf00515d0Aa91B",
     "symbol": "BETH",
     "name": "Beacon ETH",
@@ -406,14 +390,6 @@
     "name": "Coin98",
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0xaEC945e04baF28b135Fa7c640f624f8D90F1C3a6.png"
-  },
-  {
-    "chainId": 56,
-    "address": "0x5C8C8D560048F34E5f7f8ad71f2f81a89DBd273e",
-    "symbol": "CART",
-    "name": "CryptoArt.ai",
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/0x5C8C8D560048F34E5f7f8ad71f2f81a89DBd273e.png"
   },
   {
     "chainId": 56,
@@ -921,14 +897,6 @@
   },
   {
     "chainId": 56,
-    "address": "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
-    "symbol": "LIT",
-    "name": "Litentry",
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723.png"
-  },
-  {
-    "chainId": 56,
     "address": "0x590D11c0696b0023176f5D7587d6b2f502a08047",
     "symbol": "LOOKS",
     "name": "LooksRare",
@@ -1065,14 +1033,6 @@
   },
   {
     "chainId": 56,
-    "address": "0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F",
-    "symbol": "MTRG",
-    "name": "Meter",
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F.png"
-  },
-  {
-    "chainId": 56,
     "address": "0x9F882567A62a5560d147d64871776EeA72Df41D3",
     "symbol": "MX",
     "name": "MX Token",
@@ -1118,14 +1078,6 @@
     "name": "Nerve Finance",
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x42F6f551ae042cBe50C739158b4f0CAC0Edb9096.png"
-  },
-  {
-    "chainId": 56,
-    "address": "0x8CD6e29d3686d24d3C2018CEe54621eA0f89313B",
-    "symbol": "NULS",
-    "name": "Nuls",
-    "decimals": 8,
-    "logoURI": "https://tokens.pancakeswap.finance/images/0x8CD6e29d3686d24d3C2018CEe54621eA0f89313B.png"
   },
   {
     "chainId": 56,
@@ -1241,14 +1193,6 @@
   },
   {
     "chainId": 56,
-    "address": "0x1796ae0b0fa4862485106a0de9b654eFE301D0b2",
-    "symbol": "PMON",
-    "name": "Polkamon",
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/0x1796ae0b0fa4862485106a0de9b654eFE301D0b2.png"
-  },
-  {
-    "chainId": 56,
     "address": "0xdaacB0Ab6Fb34d24E8a67BfA14BF4D95D4C7aF92",
     "symbol": "PNT",
     "name": "PNT",
@@ -1318,14 +1262,6 @@
     "name": "Quidd Token",
     "decimals": 18,
     "logoURI": "https://tokens.pancakeswap.finance/images/0x7961Ade0a767c0E5B67Dd1a1F78ba44F727642Ed.png"
-  },
-  {
-    "chainId": 56,
-    "address": "0x12BB890508c125661E03b09EC06E404bc9289040",
-    "symbol": "RACA",
-    "name": "Radio Caca V2",
-    "decimals": 18,
-    "logoURI": "https://tokens.pancakeswap.finance/images/0x12BB890508c125661E03b09EC06E404bc9289040.png"
   },
   {
     "chainId": 56,

@@ -6,6 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const _ = require('lodash');
 const beautify = require('json-beautify');
+const { getAddress } = require('@ethersproject/address');
 
 const { buildList } = require('../src/process');
 const chains = require('../src/sources/chains.json');
@@ -35,4 +36,20 @@ describe('buildList', () => {
     it('validates', () => {
         expect(validator(defaultTokenList)).to.equal(true);
     });
+
+    it('contains no duplicate addresses', () => {
+        const map = {};
+        for (let token of defaultTokenList.tokens) {
+          const key = `${token.chainId}-${token.address}`;
+          expect(typeof map[key])
+            .to.equal('undefined');
+          map[key] = true;
+        }
+      });
+
+      it('all addresses are valid and checksummed', () => {
+        for (let token of defaultTokenList.tokens) {
+          expect(getAddress(token.address)).to.eq(token.address);
+        }
+      });
 });

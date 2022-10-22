@@ -113,7 +113,7 @@
   },
   {
     "chainId": 10,
-    "address": "0x764ad60e1b81f6cacfec1a2926393d688d4493e6",
+    "address": "0x764aD60e1B81F6CACfec1a2926393D688D4493E6",
     "symbol": "aCRV",
     "name": "AladdinCRV",
     "decimals": 18,
@@ -161,7 +161,7 @@
   },
   {
     "chainId": 10,
-    "address": "0x1da650c3b2daa8aa9ff6f661d4156ce24d08a062",
+    "address": "0x1da650C3B2DaA8AA9Ff6F661d4156Ce24d08A062",
     "symbol": "DCN",
     "name": "Dentacoin",
     "decimals": 0,
@@ -169,7 +169,7 @@
   },
   {
     "chainId": 10,
-    "address": "0x0e49ca6ea763190084c846d3fc18f28bc2ac689a",
+    "address": "0x0E49ca6EA763190084C846d3Fc18f28BC2aC689a",
     "symbol": "DUCK",
     "name": "Unit protocol",
     "decimals": 18,
@@ -177,7 +177,7 @@
   },
   {
     "chainId": 10,
-    "address": "0x81ab7e0d570b01411fcc4afd3d50ec8c241cb74b",
+    "address": "0x81aB7E0D570b01411fcC4afd3D50eC8C241cb74b",
     "symbol": "EQZ",
     "name": "Equalizer",
     "decimals": 18,
@@ -193,7 +193,7 @@
   },
   {
     "chainId": 10,
-    "address": "0x1eba7a6a72c894026cd654ac5cdcf83a46445b08",
+    "address": "0x1EBA7a6a72c894026Cd654AC5CDCF83A46445B08",
     "symbol": "GTC",
     "name": "Gitcoin",
     "decimals": 18,
@@ -217,7 +217,7 @@
   },
   {
     "chainId": 10,
-    "address": "0xf98dcd95217e15e05d8638da4c91125e59590b07",
+    "address": "0xF98dCd95217E15E05d8638da4c91125E59590B07",
     "symbol": "KROM",
     "name": "Kromatika",
     "decimals": 18,
@@ -230,14 +230,6 @@
     "name": "Lido DAO Token",
     "decimals": 18,
     "logoURI": "https://ethereum-optimism.github.io/data/LDO/logo.svg"
-  },
-  {
-    "chainId": 10,
-    "address": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6",
-    "symbol": "LINK",
-    "name": "Chainlink",
-    "decimals": 18,
-    "logoURI": "https://ethereum-optimism.github.io/data/LINK/logo.png"
   },
   {
     "chainId": 10,
@@ -265,14 +257,6 @@
   },
   {
     "chainId": 10,
-    "address": "0xab7badef82e9fe11f6f33f87bc9bc2aa27f2fcb5",
-    "symbol": "MKR",
-    "name": "Maker",
-    "decimals": 18,
-    "logoURI": "https://ethereum-optimism.github.io/data/MKR/logo.png"
-  },
-  {
-    "chainId": 10,
     "address": "0x5e70AfFE232e2919792f77EB94e566db0320fa88",
     "symbol": "MOM",
     "name": "Monetum",
@@ -297,7 +281,7 @@
   },
   {
     "chainId": 10,
-    "address": "0x395ae52bb17aef68c2888d941736a71dc6d4e125",
+    "address": "0x395Ae52bB17aef68C2888d941736A71dC6d4e125",
     "symbol": "POOL",
     "name": "PoolTogether",
     "decimals": 18,
@@ -305,7 +289,7 @@
   },
   {
     "chainId": 10,
-    "address": "0x7c6b91d9be155a6db01f749217d76ff02a7227f2",
+    "address": "0x7c6b91D9Be155A6Db01f749217d76fF02A7227F2",
     "symbol": "SARCO",
     "name": "Sarcophagus",
     "decimals": 18,
@@ -321,14 +305,6 @@
   },
   {
     "chainId": 10,
-    "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
-    "symbol": "SNX",
-    "name": "Synthetix",
-    "decimals": 18,
-    "logoURI": "https://ethereum-optimism.github.io/data/SNX/logo.svg"
-  },
-  {
-    "chainId": 10,
     "address": "0xcfD1D50ce23C46D3Cf6407487B2F8934e96DC8f9",
     "symbol": "SPANK",
     "name": "SPANK",
@@ -337,7 +313,7 @@
   },
   {
     "chainId": 10,
-    "address": "0xef6301da234fc7b0545c6e877d3359fe0b9e50a4",
+    "address": "0xEf6301DA234fC7b0545c6E877D3359FE0B9E50a4",
     "symbol": "SUKU",
     "name": "SUKU",
     "decimals": 18,
@@ -358,14 +334,6 @@
     "name": "TrueUSD",
     "decimals": 18,
     "logoURI": "https://ethereum-optimism.github.io/data/TUSD/logo.png"
-  },
-  {
-    "chainId": 10,
-    "address": "0x6fd9d7ad17242c41f7131d257212c54a0e816691",
-    "symbol": "UNI",
-    "name": "Uniswap",
-    "decimals": 18,
-    "logoURI": "https://ethereum-optimism.github.io/data/UNI/logo.png"
   },
   {
     "chainId": 10,

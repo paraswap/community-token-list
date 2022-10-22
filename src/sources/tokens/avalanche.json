@@ -185,14 +185,6 @@
   },
   {
     "chainId": 43114,
-    "address": "0x9Fda7cEeC4c18008096C2fE2B85F05dc300F94d0",
-    "symbol": "MFI",
-    "name": "MarginSwap",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0x9Fda7cEeC4c18008096C2fE2B85F05dc300F94d0/logo_24.png"
-  },
-  {
-    "chainId": 43114,
     "address": "0x440aBbf18c54b2782A4917b80a1746d3A2c2Cce1",
     "symbol": "SHIBX",
     "name": "SHIBAVAX",
@@ -318,14 +310,6 @@
     "name": "OrcaDAO",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0x8B1d98A91F853218ddbb066F20b8c63E782e2430/logo_24.png"
-  },
-  {
-    "chainId": 43114,
-    "address": "0x544c42fBB96B39B21DF61cf322b5EDC285EE7429",
-    "symbol": "INSUR",
-    "name": "INSUR Token",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0x544c42fBB96B39B21DF61cf322b5EDC285EE7429/logo_24.png"
   },
   {
     "chainId": 43114,
@@ -985,27 +969,11 @@
   },
   {
     "chainId": 43114,
-    "address": "0xed2b42d3c9c6e97e11755bb37df29b6375ede3eb",
-    "symbol": "HON",
-    "name": "Hon Token",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/logos/0xed2b42d3c9c6e97e11755bb37df29b6375ede3eb/logo.png"
-  },
-  {
-    "chainId": 43114,
     "address": "0xFc6Da929c031162841370af240dEc19099861d3B",
     "symbol": "DOMI",
     "name": "Domi",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/logos/0xFc6Da929c031162841370af240dEc19099861d3B/logo.png"
-  },
-  {
-    "chainId": 43114,
-    "address": "0xfcc6ce74f4cd7edef0c5429bb99d38a3608043a5",
-    "symbol": "FIRE",
-    "name": "FIRE",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/logos/0xfcc6ce74f4cd7edef0c5429bb99d38a3608043a5/logo.png"
   },
   {
     "chainId": 43114,
@@ -1041,7 +1009,7 @@
   },
   {
     "chainId": 43114,
-    "address": "0xeb8343d5284caec921f035207ca94db6baaacbcd",
+    "address": "0xeb8343D5284CaEc921F035207ca94DB6BAaaCBcd",
     "symbol": "ECD",
     "name": "Echidna",
     "decimals": 18,
