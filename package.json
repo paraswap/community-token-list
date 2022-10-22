@@ -4,9 +4,14 @@
   "repository": "git@github.com:paraswap/community-token-list.git",
   "license": "MIT",
   "scripts": {
-    "start": "node src/process.js"
+    "test": "mocha",
+    "start": "node src"
   },
   "devDependencies": {
-    "json-beautify": "^1.1.1"
+    "@uniswap/token-lists": "^1.0.0-beta.30",
+    "ajv": "^6.12.3",
+    "chai": "^4.2.0",
+    "json-beautify": "^1.1.1",
+    "mocha": "^8.0.1"
   }
 }
