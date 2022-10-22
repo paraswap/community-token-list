@@ -2,7 +2,7 @@ const _ = require('lodash');
 const axios = require('axios');
 const fs = require('fs');
 const beautify = require('json-beautify');
-const {getAddress} = require('@ethersproject/address');
+const { getAddress } = require('@ethersproject/address');
 
 const { version } = require("../package.json");
 const lists = require('./sources/lists.json');
@@ -59,7 +59,8 @@ async function processLists() {
     createTmpDir();
 
     const tokenLists = _(await downloadLists()).map(({ list }) => list)
-      .flatten().uniqBy('address')
+      .flatten()
+      .uniqBy('address')
       .filter(t => t.symbol.length < 6 && t.name.length < 15).value();
 
     const tokensByChain = Object.keys(chains).reduce((acc, chainId) => {
