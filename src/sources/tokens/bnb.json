@@ -1009,6 +1009,14 @@
   },
   {
     "chainId": 56,
+    "address": "0xD06716E1Ff2E492Cc5034c2E81805562dd3b45fa",
+    "symbol": "MGP",
+    "name": "Magpie Token",
+    "decimals": 18,
+    "logoURI": "https://tokens.pancakeswap.finance/images/0xD06716E1Ff2E492Cc5034c2E81805562dd3b45fa.png"
+  },
+  {
+    "chainId": 56,
     "address": "0x2C717059b366714d267039aF8F59125CAdce6D8c",
     "symbol": "MHUNT",
     "name": "MetaShooter",
