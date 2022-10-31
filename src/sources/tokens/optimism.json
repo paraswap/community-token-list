@@ -17,11 +17,43 @@
   },
   {
     "chainId": 10,
+    "address": "0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53",
+    "symbol": "CRV",
+    "name": "Curve DAO Token",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png"
+  },
+  {
+    "chainId": 10,
     "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
     "symbol": "DAI",
     "name": "Dai Stablecoin",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+  },
+  {
+    "chainId": 10,
+    "address": "0x65559aA14915a70190438eF90104769e5E890A00",
+    "symbol": "ENS",
+    "name": "Ethereum Name Service",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/19785/thumb/acatxTm8_400x400.jpg?1635850140"
+  },
+  {
+    "chainId": 10,
+    "address": "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
+    "symbol": "LINK",
+    "name": "ChainLink Token",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
+  },
+  {
+    "chainId": 10,
+    "address": "0xFEaA9194F9F8c1B65429E31341a103071464907E",
+    "symbol": "LRC",
+    "name": "LoopringCoin V2",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD/logo.png"
   },
   {
     "chainId": 10,
@@ -54,6 +86,46 @@
     "name": "Optimism",
     "decimals": 18,
     "logoURI": "https://ethereum-optimism.github.io/data/OP/logo.png"
+  },
+  {
+    "chainId": 10,
+    "address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
+    "symbol": "PERP",
+    "name": "Perpetual Protocol",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/12381/thumb/60d18e06844a844ad75901a9_mark_only_03.png?1628674771"
+  },
+  {
+    "chainId": 10,
+    "address": "0x7FB688CCf682d58f86D7e38e03f9D22e7705448B",
+    "symbol": "RAI",
+    "name": "Rai Reflex Index",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/14004/thumb/RAI-logo-coin.png?1613592334"
+  },
+  {
+    "chainId": 10,
+    "address": "0xB548f63D4405466B36C0c0aC3318a22fDcec711a",
+    "symbol": "RGT",
+    "name": "Rari Governance Token",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/12900/thumb/Rari_Logo_Transparent.png?1613978014"
+  },
+  {
+    "chainId": 10,
+    "address": "0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4",
+    "symbol": "SNX",
+    "name": "Synthetix Network Token",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png"
+  },
+  {
+    "chainId": 10,
+    "address": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea",
+    "symbol": "UMA",
+    "name": "UMA Voting Token v1",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png"
   },
   {
     "chainId": 10,
@@ -121,6 +193,14 @@
   },
   {
     "chainId": 10,
+    "address": "0xFf733b2A3557a7ed6697007ab5D11B79FdD1b76B",
+    "symbol": "ACX",
+    "name": "Across Protocol Token",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/ACX/logo.png"
+  },
+  {
+    "chainId": 10,
     "address": "0x61BAADcF22d2565B0F471b291C475db5555e0b76",
     "symbol": "AELIN",
     "name": "Aelin Protocol",
@@ -153,6 +233,22 @@
   },
   {
     "chainId": 10,
+    "address": "0x5029C236320b8f15eF0a657054B84d90bfBEDED3",
+    "symbol": "BitANT",
+    "name": "BitANT",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/BitANT/logo.png"
+  },
+  {
+    "chainId": 10,
+    "address": "0xc98B98d17435AA00830c87eA02474C5007E1f272",
+    "symbol": "BitBTC",
+    "name": "BitBTC",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/BitBTC/logo.png"
+  },
+  {
+    "chainId": 10,
     "address": "0xEc6adef5E1006bb305bB1975333e8fc4071295bf",
     "symbol": "CTSI",
     "name": "Cartesi Token",
@@ -169,6 +265,22 @@
   },
   {
     "chainId": 10,
+    "address": "0xAF9fE3B5cCDAe78188B1F8b9a49Da7ae9510F151",
+    "symbol": "DHT",
+    "name": "dHEDGE DAO Token",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/DHT/logo.svg"
+  },
+  {
+    "chainId": 10,
+    "address": "0x8aE125E8653821E851F12A49F7765db9a9ce7384",
+    "symbol": "DOLA",
+    "name": "Dola USD Stablecoin",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/DOLA/logo.png"
+  },
+  {
+    "chainId": 10,
     "address": "0x0E49ca6EA763190084C846d3Fc18f28BC2aC689a",
     "symbol": "DUCK",
     "name": "Unit protocol",
@@ -182,6 +294,14 @@
     "name": "Equalizer",
     "decimals": 18,
     "logoURI": "https://ethereum-optimism.github.io/data/EQZ/logo.png"
+  },
+  {
+    "chainId": 10,
+    "address": "0x7b0bcC23851bBF7601efC9E9FE532Bf5284F65d3",
+    "symbol": "EST",
+    "name": "Erica Social Token",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/EST/logo.png"
   },
   {
     "chainId": 10,
@@ -222,6 +342,14 @@
     "name": "HanChain",
     "decimals": 18,
     "logoURI": "https://ethereum-optimism.github.io/data/HAN/logo.svg"
+  },
+  {
+    "chainId": 10,
+    "address": "0xa00E3A3511aAC35cA78530c85007AFCd31753819",
+    "symbol": "KNC",
+    "name": "Kyber Network Crystal v2",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/KNC/logo.png"
   },
   {
     "chainId": 10,
@@ -297,6 +425,22 @@
   },
   {
     "chainId": 10,
+    "address": "0x374Ad0f47F4ca39c78E5Cc54f1C9e426FF8f231A",
+    "symbol": "PREMIA",
+    "name": "Premia",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/PREMIA/logo.svg"
+  },
+  {
+    "chainId": 10,
+    "address": "0x9Bcef72be871e61ED4fBbc7630889beE758eb81D",
+    "symbol": "rETH",
+    "name": "Rocket Pool ETH",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.png"
+  },
+  {
+    "chainId": 10,
     "address": "0x7c6b91D9Be155A6Db01f749217d76fF02A7227F2",
     "symbol": "SARCO",
     "name": "Sarcophagus",
@@ -305,11 +449,35 @@
   },
   {
     "chainId": 10,
+    "address": "0x298B9B95708152ff6968aafd889c6586e9169f1D",
+    "symbol": "sBTC",
+    "name": "Synthetic Bitcoin",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/sBTC/logo.svg"
+  },
+  {
+    "chainId": 10,
     "address": "0xAe31207aC34423C41576Ff59BFB4E036150f9cF7",
     "symbol": "SDL",
     "name": "Saddle DAO",
     "decimals": 18,
     "logoURI": "https://ethereum-optimism.github.io/data/SDL/logo.svg"
+  },
+  {
+    "chainId": 10,
+    "address": "0xE405de8F52ba7559f9df3C368500B6E6ae6Cee49",
+    "symbol": "sETH",
+    "name": "Synthetic Ether",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/sETH/logo.svg"
+  },
+  {
+    "chainId": 10,
+    "address": "0xc5Db22719A06418028A40A9B5E9A7c02959D0d08",
+    "symbol": "sLINK",
+    "name": "Synthetic Chainlink",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/sLINK/logo.svg"
   },
   {
     "chainId": 10,
@@ -337,11 +505,43 @@
   },
   {
     "chainId": 10,
+    "address": "0x217D47011b23BB961eB6D93cA9945B7501a5BB11",
+    "symbol": "THALES",
+    "name": "Optimistic Thales Token",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/THALES/logo.png"
+  },
+  {
+    "chainId": 10,
+    "address": "0xd8f365c2c85648f9B89D9f1BF72C0aE4b1C36cFD",
+    "symbol": "TheDAO",
+    "name": "TheDAO",
+    "decimals": 16,
+    "logoURI": "https://ethereum-optimism.github.io/data/TheDAO/logo.svg"
+  },
+  {
+    "chainId": 10,
     "address": "0xcB59a0A753fDB7491d5F3D794316F1adE197B21E",
     "symbol": "TUSD",
     "name": "TrueUSD",
     "decimals": 18,
     "logoURI": "https://ethereum-optimism.github.io/data/TUSD/logo.png"
+  },
+  {
+    "chainId": 10,
+    "address": "0xBb586Ed34974B15049a876fd5366A4C2d1203115",
+    "symbol": "UBI",
+    "name": "Universal Basic Income",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/UBI/logo.svg"
+  },
+  {
+    "chainId": 10,
+    "address": "0x7113370218f31764C1B6353BDF6004d86fF6B9cc",
+    "symbol": "USDD",
+    "name": "Decentralized USD",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/USDD/logo.png"
   },
   {
     "chainId": 10,
@@ -374,6 +574,14 @@
     "name": "WardenSwap",
     "decimals": 18,
     "logoURI": "https://ethereum-optimism.github.io/data/WAD/logo.png"
+  },
+  {
+    "chainId": 10,
+    "address": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+    "symbol": "wstETH",
+    "name": "Wrapped liquid staked Ether 2.0",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/wstETH/logo.svg"
   },
   {
     "chainId": 10,

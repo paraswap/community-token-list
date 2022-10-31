@@ -64,7 +64,7 @@ async function processLists() {
       .concat(communityList)
       .flatten()
       .uniqBy('address')
-      .filter(t => t.symbol.length < 6 && t.name.length < 15).value();
+      .filter(t => t.symbol.length < 8).value();
 
     const tokensByChain = Object.keys(chains).reduce((acc, chainId) => {
       acc[chainId] = tokenLists.filter(t => t.chainId === parseInt(chainId));

@@ -1,6 +1,6 @@
 {
   "name": "ParaSwap Community Stablecoin Lists",
-  "timestamp": "2022-10-31T19:06:02.386Z",
+  "timestamp": "2022-10-31T20:50:35.882Z",
   "version": { "major": 1, "minor": 1, "patch": 0 },
   "tags": {},
   "logoURI": "https://uploads-ssl.webflow.com/617aa5e4225be2555942852c/6214d5c4db4ce4d976b5f1f9_logo_paraswap-handbook%20copy%201.svg",
@@ -32,6 +32,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xfF709449528B6fB6b88f557F7d93dEce33bca78D",
+      "symbol": "APEUSD",
+      "name": "ApeUSD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25621/thumb/ApeUSD.png?1652857577"
+    },
+    {
+      "chainId": 1,
       "address": "0xB9D7DdDca9a4AC480991865EfEf82E01273F79C3",
       "symbol": "BLUSD",
       "name": "Boosted LUSD",
@@ -44,6 +52,38 @@
       "symbol": "BUSD",
       "name": "Binance USD",
       "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0x1FF8CDB51219a8838b52E9cAc09b71e591BC998e",
+      "symbol": "crBUSD",
+      "name": "Cream Binance USD",
+      "decimals": 8,
+      "logoURI": "ipfs://QmQqgMFcnr1StZgPwkXLRoS8jt3BJdpM2DRykwCMZiPtZT"
+    },
+    {
+      "chainId": 1,
+      "address": "0xD692ac3245bb82319A31068D6B8412796eE85d2c",
+      "symbol": "crHUSD",
+      "name": "Cream HUSD",
+      "decimals": 8,
+      "logoURI": "ipfs://Qme4k5j23QB3WHaEgDTCiQ725B3btf1JowdBPAhJx8bYsJ"
+    },
+    {
+      "chainId": 1,
+      "address": "0x44fbeBd2F576670a6C33f6Fc0B00aA8c5753b322",
+      "symbol": "crUSDC",
+      "name": "Cream USD Coin",
+      "decimals": 8,
+      "logoURI": "ipfs://QmfKzSpj7FNtpqDo5jFuz2qCMCiCShjwkeWwgVJb1sVtD4"
+    },
+    {
+      "chainId": 1,
+      "address": "0x797AAB1ce7c01eB727ab980762bA88e7133d2157",
+      "symbol": "crUSDT",
+      "name": "Cream USDT",
+      "decimals": 8,
+      "logoURI": "ipfs://QmdDLfTXjW3dR7XbudWEfYy7Z1WRPx6Pv1txDoPySeE7LT"
     },
     {
       "chainId": 1,
@@ -87,6 +127,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f",
+      "symbol": "EURE",
+      "name": "Monerium EUR emoney",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23354/thumb/eur.png?1643926562"
+    },
+    {
+      "chainId": 1,
       "address": "0xA967Dd943B336680540011536E7D8c3d33333515",
       "symbol": "EURL",
       "name": "Lugh",
@@ -119,6 +167,14 @@
     },
     {
       "chainId": 1,
+      "address": "0xB1aBd7ABa7d99BBEfb33D1dfc66B0dD522335350",
+      "symbol": "EURST",
+      "name": "Euro Stable Token",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/20988/thumb/AF3E1D9F-4817-4FC4-BC80-FFF30A3E1B91.PNG?1638169603"
+    },
+    {
+      "chainId": 1,
       "address": "0xC581b735A1688071A1746c968e0798D642EDE491",
       "symbol": "EURT",
       "name": "Euro Tether",
@@ -132,6 +188,14 @@
       "name": "Upper Euro",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12353/thumb/euru.png?1642929585"
+    },
+    {
+      "chainId": 1,
+      "address": "0xa774FFB4AF6B0A91331C084E1aebAE6Ad535e6F3",
+      "symbol": "FLEXUSD",
+      "name": "flexUSD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13323/thumb/flexUSD_2x.png?1607480702"
     },
     {
       "chainId": 1,
@@ -199,6 +263,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x49f4592E641820e928F9919Ef4aBd92a719B4b49",
+      "symbol": "iSUSD",
+      "name": "Fulcrum sUSD iToken",
+      "decimals": 18,
+      "logoURI": "ipfs://QmTddtmEus5gH7eyEBjqeg7MZZGbXqYVc93WoVzLNvX252"
+    },
+    {
+      "chainId": 1,
       "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
       "symbol": "IUSD",
       "name": "iZUMi Bond USD",
@@ -212,6 +284,14 @@
       "name": "Instadapp USDC",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/25820/thumb/iUSDC_100x100.png?1654055475"
+    },
+    {
+      "chainId": 1,
+      "address": "0x32E4c68B3A4a813b710595AebA7f6B7604Ab9c15",
+      "symbol": "iUSDC",
+      "name": "Fulcrum USDC iToken",
+      "decimals": 6,
+      "logoURI": "ipfs://QmXyhqKCVCc4qBq9CLyZ1DWbByy2fprbaFgD13PaDDZhzX"
     },
     {
       "chainId": 1,
@@ -329,6 +409,14 @@
     },
     {
       "chainId": 1,
+      "address": "0x256845e721C0c46d54E6afBD4FA3B52CB72353EA",
+      "symbol": "UNIUSD",
+      "name": "UniDollar",
+      "decimals": 18,
+      "logoURI": "ipfs://QmQubAovbLJZHBCkTuSpJBCsYfTEiNNkypnd1ph6rtG38j"
+    },
+    {
+      "chainId": 1,
       "address": "0xd233D1f6FD11640081aBB8db125f722b5dc729dc",
       "symbol": "USD",
       "name": "Dollars",
@@ -349,6 +437,14 @@
       "name": "Psyche",
       "decimals": 2,
       "logoURI": "https://assets.coingecko.com/coins/images/13661/thumb/Psyche-logo-256.png?1610600682"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9a1997C130f4b2997166975D9AFf92797d5134c2",
+      "symbol": "USDAP",
+      "name": "BondAppetite USD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/14874/thumb/USDap_%281%29.png?1618822197"
     },
     {
       "chainId": 1,
@@ -383,6 +479,13 @@
     },
     {
       "chainId": 1,
+      "address": "0x2B4200A8D373d484993C37d63eE14AeE0096cd12",
+      "symbol": "USDFL",
+      "name": "USDFreeLiquidity",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
       "address": "0x1c48f86ae57291F7686349F12601910BD8D470bb",
       "symbol": "USDK",
       "name": "USDK",
@@ -404,6 +507,14 @@
       "name": "Neutrino USD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/10117/thumb/78GWcZu.png?1600845716"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1456688345527bE1f37E9e627DA0837D6f08C925",
+      "symbol": "USDP",
+      "name": "USDP Stablecoin",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13234/thumb/USDP.png?1606579598"
     },
     {
       "chainId": 1,
@@ -476,10 +587,66 @@
     },
     {
       "chainId": 1,
+      "address": "0xa693B19d2931d498c5B318dF961919BB4aee87a5",
+      "symbol": "UST",
+      "name": "TerraUSD  Wormhole ",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/21150/thumb/UST_wh_small.png?1644223065"
+    },
+    {
+      "chainId": 1,
+      "address": "0xBc5991cCd8cAcEba01edC44C2BB9832712c29cAB",
+      "symbol": "UUSDC",
+      "name": "Unagii USD Coin",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/13781/thumb/uUSDC.png?1611729843"
+    },
+    {
+      "chainId": 1,
+      "address": "0x178Bf8fD04b47D2De3eF3f6b3D112106375ad584",
+      "symbol": "UUSDT",
+      "name": "Unagii Tether USD",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/13778/thumb/uUSDT.png?1611729448"
+    },
+    {
+      "chainId": 1,
+      "address": "0x677ddbd918637E5F2c79e164D402454dE7dA8619",
+      "symbol": "VUSD",
+      "name": "Vesper V Dollar",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16253/thumb/Vesper_Token_600.png?1623394697"
+    },
+    {
+      "chainId": 1,
+      "address": "0xad3E3Fc59dff318BecEaAb7D00EB4F68b1EcF195",
+      "symbol": "WCUSD",
+      "name": "Wrapped Celo USD",
+      "decimals": 18,
+      "logoURI": "ipfs://QmUM5VwFQzRvJDVkmrZfdeY69kEz22XkmPdMrQRSeLZbZv"
+    },
+    {
+      "chainId": 1,
       "address": "0xe577e0B200d00eBdecbFc1cd3F7E8E04C70476BE",
       "symbol": "xEUR",
       "name": "xEURO",
       "decimals": 0
+    },
+    {
+      "chainId": 1,
+      "address": "0x5f18C75AbDAe578b483E5F43f12a39cF75b973a9",
+      "symbol": "yvUSDC",
+      "name": "USDC yVault",
+      "decimals": 6,
+      "logoURI": "ipfs://QmVsXwEs6rCZZetwQnQi2wGtURHHP4XtFp6uHKPsW1LS3n"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7Da96a3891Add058AdA2E826306D812C638D87a7",
+      "symbol": "yvUSDT",
+      "name": "USDT yVault",
+      "decimals": 6,
+      "logoURI": "ipfs://QmW1W2LV97uQVozcN9cEH82jX6tE3APTHh3dMaNB1CbbjM"
     },
     {
       "chainId": 1,
@@ -539,11 +706,43 @@
     },
     {
       "chainId": 10,
+      "address": "0x7113370218f31764C1B6353BDF6004d86fF6B9cc",
+      "symbol": "USDD",
+      "name": "Decentralized USD",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDD/logo.png"
+    },
+    {
+      "chainId": 10,
       "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
       "symbol": "USDT",
       "name": "Tether USD",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "chainId": 10,
+      "address": "0xBA28feb4b6A6b81e3F26F08b83a19E715C4294fd",
+      "symbol": "UST",
+      "name": "UST (Wormhole)",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/UST/logo.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "name": "Binance Pegged BUSD",
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+      "symbol": "DAI",
+      "name": "Binance Pegged DAI",
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3.png"
     },
     {
       "chainId": 56,
@@ -568,6 +767,22 @@
       "name": "True USD",
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x14016E85a25aeb13065688cAFB43044C2ef86784.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Binance Pegged USDT",
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x55d398326f99059fF775485246999027B3197955.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x23396cF899Ca06c4472205fC903bDB4de249D6fC",
+      "symbol": "UST",
+      "name": "UST Token",
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0x23396cF899Ca06c4472205fC903bDB4de249D6fC.png"
     },
     {
       "chainId": 137,
@@ -691,11 +906,35 @@
     },
     {
       "chainId": 137,
+      "address": "0xFFA4D863C96e743A2e1513824EA006B8D0353C57",
+      "symbol": "USDD",
+      "name": "Decentralized USD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/25380/small/UUSD.jpg?1651823371"
+    },
+    {
+      "chainId": 137,
       "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
       "symbol": "USDT",
       "name": "Tether USD",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x692597b009d13C4049a947CAB2239b7d6517875F",
+      "symbol": "UST",
+      "name": "Wrapped UST Token",
+      "decimals": 18,
+      "logoURI": "https://etherscan.io/token/images/terra-ust_32.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x3A3e7650f8B9f667dA98F236010fBf44Ee4B2975",
+      "symbol": "xUSD",
+      "name": "xDollar Stablecoin",
+      "decimals": 18,
+      "logoURI": "https://app.fluidy.fi/logo-xusd_origin.png"
     },
     {
       "chainId": 250,
@@ -850,6 +1089,22 @@
     },
     {
       "chainId": 43114,
+      "address": "0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98",
+      "symbol": "BUSD.e",
+      "name": "Binance USD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98/logo_24.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
+      "symbol": "DAI.e",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70/logo_24.png"
+    },
+    {
+      "chainId": 43114,
       "address": "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
       "symbol": "FRAX",
       "name": "Frax",
@@ -866,11 +1121,51 @@
     },
     {
       "chainId": 43114,
+      "address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
+      "symbol": "USDC.e",
+      "name": "USD Coin",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/logo_24.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xcf799767d366d789e8B446981C2D578E241fa25c",
+      "symbol": "USDD",
+      "name": "Decentralized USD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xcf799767d366d789e8B446981C2D578E241fa25c/logo_24.png"
+    },
+    {
+      "chainId": 43114,
       "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
       "symbol": "USDt",
       "name": "TetherToken",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo_24.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+      "symbol": "USDT.e",
+      "name": "Tether USD",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xc7198437980c041c805A1EDcbA50c1Ce5db95118/logo_24.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0xb599c3590F42f8F995ECfa0f85D2980B76862fc1",
+      "symbol": "UST",
+      "name": "Wormhole UST",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xb599c3590F42f8F995ECfa0f85D2980B76862fc1/logo_24.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x111111111111ed1D73f860F57b2798b683f2d325",
+      "symbol": "YUSD",
+      "name": "YUSD Stablecoin",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/logos/0x111111111111ed1D73f860F57b2798b683f2d325/logo.png"
     }
   ]
 }
