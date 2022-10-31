@@ -121,13 +121,12 @@ async function buildStablesList() {
 
     const { data: { tokens: cmc } } = await axios.get("https://stablecoin.cmc.eth.link");
 
-    const stables = _(psp)
+    const tokensByChain = _(psp)
       .concat(cmc)
       .filter(t => fiatCoins.find(s => !!t.symbol.toUpperCase().match(s)) || knownStables.includes(t.symbol))
       .uniqBy('address')
+      .groupBy('chainId')
       .value();
-
-    const tokensByChain = _(stables).groupBy('chainId').value();
 
     const stableList = await buildList(tokensByChain, "ParaSwap Community Stablecoin Lists")
 
