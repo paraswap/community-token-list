@@ -1,11 +1,19 @@
 {
   "name": "ParaSwap Community Stablecoin Lists",
-  "timestamp": "2022-10-31T15:12:15.226Z",
+  "timestamp": "2022-10-31T19:06:02.386Z",
   "version": { "major": 1, "minor": 1, "patch": 0 },
   "tags": {},
   "logoURI": "https://uploads-ssl.webflow.com/617aa5e4225be2555942852c/6214d5c4db4ce4d976b5f1f9_logo_paraswap-handbook%20copy%201.svg",
   "keywords": [ "ParaSwap", "Token Lists", "DAO", "Community" ],
   "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+      "symbol": "AGEUR",
+      "name": "agEUR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/19479/thumb/agEUR.png?1635283566"
+    },
     {
       "chainId": 1,
       "address": "0xD37EE7e4f452C6638c96536e68090De8cBcdb583",
@@ -79,6 +87,54 @@
     },
     {
       "chainId": 1,
+      "address": "0xA967Dd943B336680540011536E7D8c3d33333515",
+      "symbol": "EURL",
+      "name": "Lugh",
+      "decimals": 6,
+      "logoURI": "ipfs://QmaT499Xv3zmw3EtHxbfPoWHi1QFKyz1nL2ypVVvTKJtBR"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+      "symbol": "EUROC",
+      "name": "Euro Coin",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/26045/thumb/euro-coin.png?1655394420"
+    },
+    {
+      "chainId": 1,
+      "address": "0x37129b96896891e56bc099540fe7D1841005A367",
+      "symbol": "EUROS",
+      "name": "SpiceEURO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26443/thumb/E4B6C93A-E2A1-4F53-BB26-15D0FE802812.png?1658110215"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdB25f211AB05b1c97D595516F45794528a807ad8",
+      "symbol": "EURS",
+      "name": "STASIS EURO",
+      "decimals": 2,
+      "logoURI": "https://assets.coingecko.com/coins/images/5164/thumb/EURS_300x300.png?1550571779"
+    },
+    {
+      "chainId": 1,
+      "address": "0xC581b735A1688071A1746c968e0798D642EDE491",
+      "symbol": "EURT",
+      "name": "Euro Tether",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/17385/thumb/Tether_full_logo_dm.png?1627537298"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6c139349ee94eBAaff55eD52d382673C263B22d6",
+      "symbol": "EURU",
+      "name": "Upper Euro",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12353/thumb/euru.png?1642929585"
+    },
+    {
+      "chainId": 1,
       "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
       "symbol": "FRAX",
       "name": "Frax",
@@ -95,6 +151,22 @@
     },
     {
       "chainId": 1,
+      "address": "0x86B4dBE5D203e634a12364C0e428fa242A3FbA98",
+      "symbol": "GBPT",
+      "name": "poundtoken",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26591/thumb/gbpt.jpeg?1658958061"
+    },
+    {
+      "chainId": 1,
+      "address": "0x27ed129C298c5Df130364083F491e2920E5A2f29",
+      "symbol": "GBPU",
+      "name": "Upper Pound",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12357/thumb/gbpu.png?1642929642"
+    },
+    {
+      "chainId": 1,
       "address": "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd",
       "symbol": "GUSD",
       "name": "GeminiDollar",
@@ -108,6 +180,22 @@
       "name": "HUSD",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/9567/thumb/HUSD.jpg?1568889385"
+    },
+    {
+      "chainId": 1,
+      "address": "0x96E61422b6A9bA0e068B6c5ADd4fFaBC6a4aae27",
+      "symbol": "IBEUR",
+      "name": "Iron Bank EURO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17285/thumb/Iron_Bank_Euro.png?1627900506"
+    },
+    {
+      "chainId": 1,
+      "address": "0x69681f8fde45345C3870BCD5eaf4A05a60E7D227",
+      "symbol": "IBGBP",
+      "name": "Iron Bank GBP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18576/thumb/logo-128_%283%29.png?1632470148"
     },
     {
       "chainId": 1,
@@ -174,6 +262,21 @@
     },
     {
       "chainId": 1,
+      "address": "0xD71eCFF9342A5Ced620049e616c5035F1dB98620",
+      "symbol": "SEUR",
+      "name": "sEUR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13637/thumb/sEUR.png?1610609277"
+    },
+    {
+      "chainId": 1,
+      "address": "0x97fe22E7341a0Cd8Db6F6C021A24Dc8f4DAD855F",
+      "symbol": "sGBP",
+      "name": "Synth sGBP",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
       "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
       "symbol": "sUSD",
       "name": "Synth sUSD",
@@ -209,6 +312,13 @@
       "name": "Swerve fi USD",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/12918/thumb/swerve.png?1603631063"
+    },
+    {
+      "chainId": 1,
+      "address": "0x00000000441378008EA67F4284A57932B1c000a5",
+      "symbol": "TGBP",
+      "name": "TrueGBP",
+      "decimals": 18
     },
     {
       "chainId": 1,
@@ -366,6 +476,13 @@
     },
     {
       "chainId": 1,
+      "address": "0xe577e0B200d00eBdecbFc1cd3F7E8E04C70476BE",
+      "symbol": "xEUR",
+      "name": "xEURO",
+      "decimals": 0
+    },
+    {
+      "chainId": 1,
       "address": "0xc56c2b7e71B54d38Aab6d52E94a04Cbfa8F604fA",
       "symbol": "ZUSD",
       "name": "ZUSD",
@@ -454,6 +571,14 @@
     },
     {
       "chainId": 137,
+      "address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
+      "symbol": "agEUR",
+      "name": "agEUR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/19479/small/agEUR.png?1635283566"
+    },
+    {
+      "chainId": 137,
       "address": "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7",
       "symbol": "BUSD",
       "name": "Binance USD",
@@ -467,6 +592,14 @@
       "name": "Dai Stablecoin",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x8a037dbcA8134FFc72C362e394e35E0Cad618F85",
+      "symbol": "EUROC",
+      "name": "Euro Coin",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/26045/thumb/euro-coin.png?1655394420"
     },
     {
       "chainId": 137,
@@ -563,6 +696,14 @@
       "name": "Tether USD",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "chainId": 250,
+      "address": "0x02a2b736F9150d36C0919F3aCEE8BA2A92FBBb40",
+      "symbol": "agEUR",
+      "name": "agEUR",
+      "decimals": 18,
+      "logoURI": "https://assets.spooky.fi/tokens/agEUR.png"
     },
     {
       "chainId": 250,
@@ -682,6 +823,14 @@
       "name": "Tether USD",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x6feFd97F328342a8A840546A55FDcfEe7542F9A8",
+      "symbol": "agEUR",
+      "name": "agEUR",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0x6feFd97F328342a8A840546A55FDcfEe7542F9A8/logo_24.png"
     },
     {
       "chainId": 43114,
