@@ -193,6 +193,14 @@
   },
   {
     "chainId": 10,
+    "address": "0x86bEA60374f220dE9769b2fEf2db725bc1cDd335",
+    "symbol": "FLASH",
+    "name": "Flashstake",
+    "decimals": 18,
+    "logoURI": "https://ethereum-optimism.github.io/data/FLASH/logo.svg"
+  },
+  {
+    "chainId": 10,
     "address": "0x1EBA7a6a72c894026Cd654AC5CDCF83A46445B08",
     "symbol": "GTC",
     "name": "Gitcoin",
