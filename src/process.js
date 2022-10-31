@@ -116,15 +116,15 @@ async function buildList(tokensByChain, name = 'ParaSwap Community Token Lists')
 
 async function buildStablesList() {
   try {
-    const knownStables = ['FRAX', 'DAI'];
+    const knownStables = ['FRAX', 'DAI', 'DAI.e', 'USDC.e', 'USDT.e', 'UST', 'USDC', 'USDT', 'TUSD', 'LUSD'];
     const fiatCoins = ['USD', 'EUR', 'GBP'];
 
     const { data: { tokens: cmc } } = await axios.get("https://stablecoin.cmc.eth.link");
 
     const stables = _(psp)
       .concat(cmc)
-      .filter(t => fiatCoins.find(s => !!t.symbol.toUpperCase().match(s)) || knownStables.includes(t.symbol.toUpperCase()))
-      .unionBy('address')
+      .filter(t => fiatCoins.find(s => !!t.symbol.toUpperCase().match(s)) || knownStables.includes(t.symbol))
+      .uniqBy('address')
       .value();
 
     const tokensByChain = _(stables).groupBy('chainId').value();
