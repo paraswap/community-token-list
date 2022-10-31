@@ -66,5 +66,9 @@
     {
         "url": "https://static.optimism.io/optimism.tokenlist.json",
         "filename": "optimism_tokens_list"
+    },
+    {
+        "url": "https://stablecoin.cmc.eth.link",
+        "filename": "cmc_tokens_list"
     }
 ]
