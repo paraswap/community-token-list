@@ -8,6 +8,7 @@ const { version } = require("../package.json");
 const lists = require('./sources/lists.json');
 const chains = require('./sources/chains.json');
 const communityList = require('./sources/community-token-requests.json');
+const { tokens: psp } = require('./sources/paraswap.tokenlist.json');
 
 const TmpDir = `${__dirname}/sources/tmp`;
 const TokensDir = `${__dirname}/sources/tokens`;
@@ -86,12 +87,12 @@ async function processLists() {
   }
 }
 
-async function buildList(tokensByChain) {
+async function buildList(tokensByChain, name = 'ParaSwap Community Token Lists') {
   const tokens = _(tokensByChain).values().flatten().value();
   const parsed = version.split(".");
 
   const list = {
-    name: "ParaSwap Community Token Lists",
+    name,
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
@@ -113,6 +114,29 @@ async function buildList(tokensByChain) {
   return list;
 }
 
+async function buildStablesList() {
+  try {
+    const knownStables = ['FRAX', 'DAI'];
+
+    const { data: { tokens: cmc } } = await axios.get("https://stablecoin.cmc.eth.link");
+
+    const stables = _(psp)
+      .concat(cmc)
+      .filter(t => t.symbol.toUpperCase().includes('USD') || knownStables.includes(t.symbol.toUpperCase()))
+      .unionBy('address')
+      .value();
+
+    const tokensByChain = _(stables).groupBy('chainId').value();
+
+    const stableList = await buildList(tokensByChain, "ParaSwap Community Stablecoin Lists")
+
+    SaveJSON(`${__dirname}/sources/paraswap.stablelist.json`, stableList);
+
+  } catch (error) {
+    console.log('error processing', error);
+  }
+}
+
 async function process() {
   try {
     const tokensByChain = await processLists();
@@ -129,5 +153,7 @@ async function process() {
 module.exports = {
   process,
   processLists,
-  buildList
+  buildList,
+  buildStablesList,
+  SaveJSON
 }

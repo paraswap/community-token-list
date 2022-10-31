@@ -1,11 +1,12 @@
 {
   "name": "@paraswap/community-token-list",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "git@github.com:paraswap/community-token-list.git",
   "license": "MIT",
   "scripts": {
     "test": "mocha",
-    "start": "node src"
+    "start": "node src",
+    "start:stables": "node src/stables"
   },
   "devDependencies": {
     "@ethersproject/address": "^5.7.0",
