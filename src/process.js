@@ -63,7 +63,7 @@ async function processLists() {
     const tokenLists = _(await downloadLists()).map(({ list }) => list)
       .concat(communityList)
       .flatten()
-      .uniqBy('address')
+      .uniqBy(t => `${t.chainId}_${t.address}`)
       .filter(t => t.symbol.length < 8).value();
 
     const tokensByChain = Object.keys(chains).reduce((acc, chainId) => {
@@ -124,7 +124,7 @@ async function buildStablesList() {
     const tokensByChain = _(psp)
       .concat(cmc)
       .filter(t => fiatCoins.find(s => !!t.symbol.toUpperCase().match(s)) || knownStables.includes(t.symbol))
-      .uniqBy('address')
+      .uniqBy(t => `${t.chainId}_${t.address}`)
       .groupBy('chainId')
       .value();
 
