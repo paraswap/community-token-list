@@ -1218,6 +1218,14 @@
     },
     {
       "chainId": 42161,
+      "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+    },
+    {
+      "chainId": 42161,
       "address": "0x7468a5d8E02245B00E8C0217fCE021C70Bc51305",
       "symbol": "FRAX",
       "name": "Frax",
