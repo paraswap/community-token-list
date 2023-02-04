@@ -52,7 +52,7 @@
         "filename": "pangolin_avax"
     },
     {
-        "url": "https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/joe.tokenlist.json",
+        "url": "https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/avalanche.tokenlist.json",
         "filename": "trader_joe_default"
     },
     {
@@ -60,7 +60,7 @@
         "filename": "spookyswap_default"
     },
     {
-        "url": "https://bridge.arbitrum.io/token-list-42161.json",
+        "url": "https://tokenlist.arbitrum.io/ArbTokenLists/arbed_arb_whitelist_era.json",
         "filename": "arbitrum_tokens_list"
     },
     {
