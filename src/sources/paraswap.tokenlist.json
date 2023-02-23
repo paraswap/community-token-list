@@ -55912,6 +55912,134 @@
       "name": "ZooToken",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0x1B88D7aD51626044Ec62eF9803EA264DA4442F32/logo_24.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+      "symbol": "GMX",
+      "name": "GMX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18323/small/arbit.png?1631532468"
+    },
+    {
+      "chainId": 137,
+      "address": "0xe4bf2864ebec7b7fdf6eeca9bacae7cdfdaffe78",
+      "symbol": "DODO",
+      "name": "DODO bird",
+      "decimals": 18,
+      "logoURI": "https://etherscan.io/token/images/dodo_32.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xf8f9efc0db77d8881500bb06ff5d6abc3070e695",
+      "symbol": "SYN",
+      "name": "Synapse",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18024/thumb/synapse_social_icon.png?1663921797"
+    },
+    {
+      "chainId": 10,
+      "address": "0x5a5fff6f753d7c11a56a52fe47a177a87e431655",
+      "symbol": "SYN",
+      "name": "Synapse",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18024/thumb/synapse_social_icon.png?1663921797"
+    },
+    {
+      "chainId": 56,
+      "address": "0xa4080f1778e69467e905b8d6f72f6e441f9e9484",
+      "symbol": "SYN",
+      "name": "Synapse",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18024/thumb/synapse_social_icon.png?1663921797"
+    },
+    {
+      "chainId": 250,
+      "address": "0xe55e19fb4f2d85af758950957714292dac1e25b2",
+      "symbol": "SYN",
+      "name": "Synapse",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18024/thumb/synapse_social_icon.png?1663921797"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x080f6aed32fc474dd5717105dba5ea57268f46eb",
+      "symbol": "SYN",
+      "name": "Synapse",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18024/thumb/synapse_social_icon.png?1663921797"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x9623063377ad1b27544c965ccd7342f7ea7e88c7",
+      "symbol": "GRT",
+      "name": "The Graph",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13397/thumb/Graph_Token.png?1608145566"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x8a0cac13c7da965a312f08ea4229c37869e85cb9",
+      "symbol": "GRT",
+      "name": "The Graph",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13397/thumb/Graph_Token.png?1608145566"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
+      "symbol": "SUSHI",
+      "name": "Sushi",
+      "decimals": 18,
+      "logoURI": "https://gemini.com/images/currencies/icons/default/sushi.svg"
+    },
+    {
+      "chainId": 10,
+      "address": "0x67CCEA5bb16181E7b4109c9c2143c24a1c2205Be",
+      "symbol": "FXS",
+      "name": "Frax Share",
+      "decimals": 18,
+      "logoURI": "https://assets.spooky.fi/tokens/FXS.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0xe48A3d7d0Bc88d552f730B62c006bC925eadB9eE",
+      "symbol": "FXS",
+      "name": "Frax Share",
+      "decimals": 18,
+      "logoURI": "https://assets.spooky.fi/tokens/FXS.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd2ba23de8a19316a638dc1e7a9adda1d74233368",
+      "symbol": "QUICK",
+      "name": "Quickswap",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13970/thumb/1_pOU6pBMEmiL-ZJVb0CYRjQ.png?1613386659"
+    },
+    {
+      "chainId": 137,
+      "address": "0xB5C064F955D8e7F38fE0460C556a72987494eE17",
+      "symbol": "QUICK",
+      "name": "Quickswap",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13970/thumb/1_pOU6pBMEmiL-ZJVb0CYRjQ.png?1613386659"
+    },
+    {
+      "chainId": 1,
+      "address": "0x5283d291dbcf85356a21ba090e6db59121208b44",
+      "symbol": "BLUR",
+      "name": "Blur",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28453/small/blur.png?1670745921"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x0C4681e6C0235179ec3D4F4fc4DF3d14FDD96017",
+      "symbol": "RDNT",
+      "name": "Radiant Capital",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/26536/small/Radiant-Logo-200x200.png?1658715865"
     }
   ]
 }

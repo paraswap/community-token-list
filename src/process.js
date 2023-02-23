@@ -139,6 +139,7 @@ async function buildStablesList() {
 
 async function process() {
   try {
+    throw new Error('Unsafe to run as this will alter the token list without vote.');
     const tokensByChain = await processLists();
 
     const list = await buildList(tokensByChain);
