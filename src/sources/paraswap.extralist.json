@@ -37,6 +37,15 @@
       "decimals": 18,
       "logoURI":
         "https://assets.coingecko.com/asset_platforms/images/33/small/arbitrum.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+      "name": "GHO",
+      "symbol": "GHO",
+      "decimals": 18,
+      "logoURI":
+        "https://assets.coingecko.com/coins/images/30663/large/ghoaave.jpeg"
     }
   ]
 }
