@@ -1,7 +1,7 @@
 {
   "name": "ParaSwap Extra Token List",
-  "timestamp": "2023-04-04T14:10:18.581Z",
-  "version": {"major": 1, "minor": 0, "patch": 0},
+  "timestamp": "2023-07-25T15:27:56.728Z",
+  "version": {"major": 1, "minor": 0, "patch": 1},
   "logoURI": "https://cdn.paraswap.io/token/token.png",
   "keywords": ["ParaSwap", "Token Lists", "Extra"],
   "tokens": [
@@ -40,8 +40,8 @@
     },
     {
       "chainId": 1,
-      "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
-      "name": "GHO",
+      "address": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+      "name": "Gho Token",
       "symbol": "GHO",
       "decimals": 18,
       "logoURI":
