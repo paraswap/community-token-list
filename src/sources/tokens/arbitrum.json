@@ -1206,5 +1206,13 @@
     "name": "ARBITRUM",
     "decimals": 18
     "logoURI": "https://assets.coingecko.com/coins/images/16547/standard/photo_2023-03-29_21.47.00.jpeg?1696516109"
+  },
+  {
+    "chainId": 42161,
+    "address": "0x5979D7b546E38E414F7E9822514be443A4800529",
+    "symbol": "WSTETH",
+    "name": "WSTETH",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/18834/standard/wstETH.png?1696518295"
   }
 ]
