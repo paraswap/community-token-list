@@ -2702,5 +2702,13 @@
     "name": "ZomaInfinity",
     "decimals": 18,
     "logoURI": "https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/0xFbe0b4aE6E5a200c36A341299604D5f71A5F0a48/logo.png"
+  },
+  {
+    "chainId": 56,
+    "address": "0xFfBa7529AC181c2Ee1844548e6D7061c9A597dF4",
+    "symbol": "CAPS",
+    "name": "Capsule Coin",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/15921/standard/e55393fa-7b4d-40f5-9f36-9a8a6bdcb570.png?1696515534"
   }
 ]
