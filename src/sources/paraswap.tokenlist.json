@@ -56040,6 +56040,62 @@
       "name": "Radiant Capital",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/26536/small/Radiant-Logo-200x200.png?1658715865"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+      "symbol": "ARB",
+      "name": "ARBITRUM",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16547/standard/photo_2023-03-29_21.47.00.jpeg?1696516109"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x5979D7b546E38E414F7E9822514be443A4800529",
+      "symbol": "WSTETH",
+      "name": "WSTETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18834/standard/wstETH.png?1696518295"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png?1696506694"
+    },
+    {
+      "chainId": 56,
+      "address": "0xFfBa7529AC181c2Ee1844548e6D7061c9A597dF4",
+      "symbol": "CAPS",
+      "name": "Capsule Coin",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/15921/standard/e55393fa-7b4d-40f5-9f36-9a8a6bdcb570.png?1696515534"
+    },
+    {
+      "chainId": 1,
+      "address": "0xb50721bcf8d664c30412cfbc6cf7a15145234ad1",
+      "symbol": "ARB",
+      "name": "ARBITRUM",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16547/standard/photo_2023-03-29_21.47.00.jpeg?1696516109"
+    },
+    {
+      "chainId": 10,
+      "address": "0xd3594e879b358f430e20f82bea61e83562d49d48",
+      "symbol": "PSP",
+      "name": "Paraswap",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/20403/thumb/ep7GqM19_400x400.jpg?1636979120"
+    },
+    {
+      "chainId": 137,
+      "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png?1696506694"
     }
   ]
 }
