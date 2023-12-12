@@ -1198,5 +1198,29 @@
     "symbol": "kUSDC",
     "name": "KAKI USDC",
     "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "symbol": "ARB",
+    "name": "ARBITRUM",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/16547/standard/photo_2023-03-29_21.47.00.jpeg?1696516109"
+  },
+  {
+    "chainId": 42161,
+    "address": "0x5979D7b546E38E414F7E9822514be443A4800529",
+    "symbol": "WSTETH",
+    "name": "WSTETH",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/18834/standard/wstETH.png?1696518295"
+  },
+  {
+    "chainId": 42161,
+    "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png?1696506694"
   }
 ]

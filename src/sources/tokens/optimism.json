@@ -590,5 +590,13 @@
     "name": "CryptoFranc",
     "decimals": 18,
     "logoURI": "https://ethereum-optimism.github.io/data/XCHF/logo.png"
+  },
+  {
+    "chainId": 10,
+    "address": "0xd3594e879b358f430e20f82bea61e83562d49d48",
+    "symbol": "PSP",
+    "name": "Paraswap",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/20403/thumb/ep7GqM19_400x400.jpg?1636979120"
   }
 ]
