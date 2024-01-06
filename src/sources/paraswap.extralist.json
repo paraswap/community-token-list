@@ -1,18 +1,10 @@
 {
   "name": "ParaSwap Extra Token List",
-  "timestamp": "2023-07-25T15:27:56.728Z",
-  "version": {"major": 1, "minor": 0, "patch": 1},
+  "timestamp": "2024-01-06T01:37:43.292Z",
+  "version": { "major": 2, "minor": 0, "patch": 0 },
   "logoURI": "https://cdn.paraswap.io/token/token.png",
-  "keywords": ["ParaSwap", "Token Lists", "Extra"],
+  "keywords": [ "ParaSwap", "Token Lists", "Extra" ],
   "tokens": [
-    {
-      "chainId": 1,
-      "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
-      "symbol": "STETH",
-      "name": "Lido Staked Ether",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13442/small/steth_logo.png"
-    },
     {
       "chainId": 1,
       "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
@@ -35,8 +27,7 @@
       "name": "Arbitrum",
       "symbol": "ARB",
       "decimals": 18,
-      "logoURI":
-        "https://assets.coingecko.com/asset_platforms/images/33/small/arbitrum.png"
+      "logoURI": "https://assets.coingecko.com/asset_platforms/images/33/small/arbitrum.png"
     },
     {
       "chainId": 1,
@@ -44,8 +35,7 @@
       "name": "Gho Token",
       "symbol": "GHO",
       "decimals": 18,
-      "logoURI":
-        "https://assets.coingecko.com/coins/images/30663/large/ghoaave.jpeg"
+      "logoURI": "https://assets.coingecko.com/coins/images/30663/large/ghoaave.jpeg"
     }
   ]
 }
