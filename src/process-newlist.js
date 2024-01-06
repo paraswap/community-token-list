@@ -204,9 +204,12 @@ function cleanList(tlist, fullTokensList, path) {
     return newTList
 }
 
-function appendNewIntroTokens(fullTokensList, path) {
+function appendNewTokens(fullTokensList, path) {
+    console.log(path, 'reth', tokenlist.tokens.filter(t => t.symbol.toLowerCase() == 'reth').map(t => t.chainId));
+    console.log(path, 'reth', fullTokensList.filter(t => t.symbol && t.symbol.toLowerCase() == 'reth').map(t => t.chainId));
+
     const newTList = {
-        ...extralist,
+        ...tokenlist,
         timestamp: new Date(),
         version: { "major": 2, "minor": 0, "patch": 0 },
         tokens: fullTokensList.filter(t => {
@@ -224,6 +227,17 @@ function appendNewIntroTokens(fullTokensList, path) {
     return newTList
 }
 
+function checkDuplicates() {
+    const stables = stablelist.tokens.filter(st => !!tokenlist.tokens.find(t => t.address.toLowerCase() == st.address.toLowerCase() && t.chainId == st.chainId))
+    console.log('stables', stables.length);
+
+    const extra = extralist.tokens.filter(st => !!tokenlist.tokens.find(t => t.address.toLowerCase() == st.address.toLowerCase() && t.chainId == st.chainId))
+    console.log('extra', extra.length);
+
+    const extra1 = extralist.tokens.filter(st => !!stablelist.tokens.find(t => t.address.toLowerCase() == st.address.toLowerCase() && t.chainId == st.chainId))
+    console.log('extra1', extra1.length);
+}
+
 async function start() {
     const fullTokensList = await retrieveMissingTokensData();
 
@@ -239,7 +253,9 @@ async function start() {
     }
     cleanList(_tokenlist, fullTokensList, './sources/paraswap.tokenlist.json');
 
-    appendNewIntroTokens(fullTokensList, './sources/paraswap.tokenlist.json');
+    appendNewTokens(fullTokensList, './sources/paraswap.tokenlist.json');
+
+    //checkDuplicates()
 }
 
 start();

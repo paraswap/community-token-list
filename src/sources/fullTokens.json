@@ -128,14 +128,6 @@
         "logoURI": "https://assets.coingecko.com/coins/images/12407/thumb/Unknown-5.png?1599624896"
     },
     {
-        "chainId": 1,
-        "address": "0xae78736cd615f374d3085123a210448e74fc6393",
-        "symbol": "RETH",
-        "name": "Rocket Pool ETH",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/20764/thumb/reth.png?1637652366"
-    },
-    {
         "name": "Safereum",
         "symbol": "SAFEREUM",
         "decimals": 18,
@@ -1458,14 +1450,6 @@
         "name": "Liquity USD",
         "decimals": 18,
         "logoURI": "https://assets.coingecko.com/coins/images/14666/thumb/Group_3.png?1617631327"
-    },
-    {
-        "chainId": 10,
-        "address": "0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
-        "symbol": "rETH",
-        "name": "Rocket Pool ETH",
-        "decimals": 18,
-        "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.png"
     },
     {
         "chainId": 10,
@@ -2833,13 +2817,6 @@
         "chainId": 42161
     },
     {
-        "name": "Rocket Pool ETH",
-        "symbol": "rETH",
-        "decimals": 18,
-        "address": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
-        "chainId": 42161
-    },
-    {
         "name": "Kujira native asset",
         "symbol": "KUJI",
         "decimals": 6,
@@ -3163,6 +3140,37 @@
         "decimals": 18,
         "address": "0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c",
         "chainId": 8453
+    },
+    {
+        "name": "Rocket Pool ETH",
+        "symbol": "rETH",
+        "decimals": 18,
+        "address": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
+        "chainId": 42161
+    },
+    {
+        "chainId": 1,
+        "address": "0xae78736cd615f374d3085123a210448e74fc6393",
+        "symbol": "RETH",
+        "name": "Rocket Pool ETH",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/20764/thumb/reth.png?1637652366"
+    },
+    {
+        "chainId": 137,
+        "address": "0x0266f4f08d82372cf0fcbccc0ff74309089c74d1",
+        "symbol": "RETH",
+        "name": "Rocket Pool ETH",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/20764/thumb/reth.png?1637652366"
+    },
+    {
+        "chainId": 10,
+        "address": "0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
+        "symbol": "rETH",
+        "name": "Rocket Pool ETH",
+        "decimals": 18,
+        "logoURI": "https://ethereum-optimism.github.io/data/rETH/logo.png"
     },
     {
         "name": "Axelar Wrapped USDC",
