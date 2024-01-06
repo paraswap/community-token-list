@@ -93,28 +93,6 @@ else {
     newlist = require('./sources/newList.json');
 }
 
-/*
-const newTokenList = tokenlist.tokens.filter(t => {
-    return !!newlist.find(nt => nt.address == t.address.toLowerCase() && nt.chainId == t.chainId);
-})
-const newStableList = stablelist.tokens.filter(t => {
-    return !!newlist.find(nt => nt.address == t.address.toLowerCase() && nt.chainId == t.chainId);
-})
-const newExtraList = extralist.tokens.filter(t => {
-    return !!newlist.find(nt => nt.address == t.address.toLowerCase() && nt.chainId == t.chainId);
-})
-
-function printCount(oldTS, nList, label) {
-    console.log(label, oldTS.tokens.length, "->", nList.length, "tokens");
-}
-printCount(tokenlist, newTokenList, 'tokenList')
-printCount(stablelist, newStableList, 'stablelist')
-printCount(extralist, newExtraList, "extralist")
-
-console.log('old lists', tokenlist.tokens.length + stablelist.tokens.length + extralist.tokens.length);
-console.log('new lists', newTokenList.length + newStableList.length + newExtraList.length);
-*/
-
 let left = 0;
 async function getMeta(tokenAddress, chainId) {
     try {
