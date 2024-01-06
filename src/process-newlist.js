@@ -205,9 +205,6 @@ function cleanList(tlist, fullTokensList, path) {
 }
 
 function appendNewTokens(fullTokensList, path) {
-    console.log(path, 'reth', tokenlist.tokens.filter(t => t.symbol.toLowerCase() == 'reth').map(t => t.chainId));
-    console.log(path, 'reth', fullTokensList.filter(t => t.symbol && t.symbol.toLowerCase() == 'reth').map(t => t.chainId));
-
     const newTList = {
         ...tokenlist,
         timestamp: new Date(),
