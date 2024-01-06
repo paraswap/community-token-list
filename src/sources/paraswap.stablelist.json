@@ -1,130 +1,18 @@
 {
   "name": "ParaSwap Community Stablecoin Lists",
-  "timestamp": "2022-10-31T20:59:57.622Z",
-  "version": { "major": 1, "minor": 1, "patch": 0 },
+  "timestamp": "2024-01-06T03:25:53.550Z",
+  "version": { "major": 2, "minor": 0, "patch": 0 },
   "tags": {},
   "logoURI": "https://uploads-ssl.webflow.com/617aa5e4225be2555942852c/6214d5c4db4ce4d976b5f1f9_logo_paraswap-handbook%20copy%201.svg",
   "keywords": [ "ParaSwap", "Token Lists", "DAO", "Community" ],
   "tokens": [
     {
       "chainId": 1,
-      "address": "0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8",
-      "symbol": "aBUSD",
-      "name": "Aave Interest bearing Binance USD",
+      "address": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+      "name": "Gho Token",
+      "symbol": "GHO",
       "decimals": 18,
-      "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aBUSD.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0xA361718326c15715591c299427c62086F69923D9",
-      "symbol": "aBUSD",
-      "name": "Aave interest bearing BUSD",
-      "decimals": 18,
-      "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aBUSD.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
-      "symbol": "AGEUR",
-      "name": "agEUR",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/19479/thumb/agEUR.png?1635283566"
-    },
-    {
-      "chainId": 1,
-      "address": "0xD37EE7e4f452C6638c96536e68090De8cBcdb583",
-      "symbol": "AGUSD",
-      "name": "Aave GUSD",
-      "decimals": 2,
-      "logoURI": "https://assets.coingecko.com/coins/images/17246/thumb/aGUSD_2x.png?1626942603"
-    },
-    {
-      "chainId": 1,
-      "address": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
-      "symbol": "ALUSD",
-      "name": "Alchemix USD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14114/thumb/Alchemix_USD.png?1614410406"
-    },
-    {
-      "chainId": 1,
-      "address": "0xfF709449528B6fB6b88f557F7d93dEce33bca78D",
-      "symbol": "APEUSD",
-      "name": "ApeUSD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25621/thumb/ApeUSD.png?1652857577"
-    },
-    {
-      "chainId": 1,
-      "address": "0x625aE63000f46200499120B906716420bd059240",
-      "symbol": "aSUSD",
-      "name": "Aave Interest bearing SUSD",
-      "decimals": 18,
-      "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aSUSD.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0x6C5024Cd4F8A59110119C56f8933403A539555EB",
-      "symbol": "aSUSD",
-      "name": "Aave interest bearing SUSD",
-      "decimals": 18,
-      "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aSUSD.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0x4DA9b813057D04BAef4e5800E36083717b4a0341",
-      "symbol": "aTUSD",
-      "name": "Aave Interest bearing TUSD",
-      "decimals": 18,
-      "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aTUSD.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0x101cc05f4A51C0319f570d5E146a8C625198e636",
-      "symbol": "aTUSD",
-      "name": "Aave interest bearing TUSD",
-      "decimals": 18,
-      "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aTUSD.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0x9bA00D6856a4eDF4665BcA2C2309936572473B7E",
-      "symbol": "aUSDC",
-      "name": "Aave Interest bearing USDC",
-      "decimals": 6,
-      "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0xBcca60bB61934080951369a648Fb03DF4F96263C",
-      "symbol": "aUSDC",
-      "name": "Aave interest bearing USDC",
-      "decimals": 6,
-      "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0x71fc860F7D3A592A4a98740e39dB31d25db65ae8",
-      "symbol": "aUSDT",
-      "name": "Aave Interest bearing USDT",
-      "decimals": 6,
-      "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDT.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0x3Ed3B47Dd13EC9a98b44e6204A523E766B225811",
-      "symbol": "aUSDT",
-      "name": "Aave interest bearing USDT",
-      "decimals": 6,
-      "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDT.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0xB9D7DdDca9a4AC480991865EfEf82E01273F79C3",
-      "symbol": "BLUSD",
-      "name": "Boosted LUSD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/27681/thumb/bLUSD_logo.png?1665213755"
+      "logoURI": "https://assets.coingecko.com/coins/images/30663/large/ghoaave.jpeg"
     },
     {
       "chainId": 1,
@@ -132,70 +20,6 @@
       "symbol": "BUSD",
       "name": "Binance USD",
       "decimals": 18
-    },
-    {
-      "chainId": 1,
-      "address": "0xEE586e7Eaad39207F0549BC65f19e336942C992f",
-      "symbol": "CEUR",
-      "name": "Celo Euro  Wormhole ",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/27870/thumb/5ETdHxeE_400x400.jpeg?1666164533"
-    },
-    {
-      "chainId": 1,
-      "address": "0x1FF8CDB51219a8838b52E9cAc09b71e591BC998e",
-      "symbol": "crBUSD",
-      "name": "Cream Binance USD",
-      "decimals": 8,
-      "logoURI": "ipfs://QmQqgMFcnr1StZgPwkXLRoS8jt3BJdpM2DRykwCMZiPtZT"
-    },
-    {
-      "chainId": 1,
-      "address": "0xD692ac3245bb82319A31068D6B8412796eE85d2c",
-      "symbol": "crHUSD",
-      "name": "Cream HUSD",
-      "decimals": 8,
-      "logoURI": "ipfs://Qme4k5j23QB3WHaEgDTCiQ725B3btf1JowdBPAhJx8bYsJ"
-    },
-    {
-      "chainId": 1,
-      "address": "0x44fbeBd2F576670a6C33f6Fc0B00aA8c5753b322",
-      "symbol": "crUSDC",
-      "name": "Cream USD Coin",
-      "decimals": 8,
-      "logoURI": "ipfs://QmfKzSpj7FNtpqDo5jFuz2qCMCiCShjwkeWwgVJb1sVtD4"
-    },
-    {
-      "chainId": 1,
-      "address": "0x797AAB1ce7c01eB727ab980762bA88e7133d2157",
-      "symbol": "crUSDT",
-      "name": "Cream USDT",
-      "decimals": 8,
-      "logoURI": "ipfs://QmdDLfTXjW3dR7XbudWEfYy7Z1WRPx6Pv1txDoPySeE7LT"
-    },
-    {
-      "chainId": 1,
-      "address": "0xC285B7E09A4584D027E5BC36571785B515898246",
-      "symbol": "CUSD",
-      "name": "Coin98 Dollar",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/26588/thumb/CUSD-01.png?1658909049"
-    },
-    {
-      "chainId": 1,
-      "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
-      "symbol": "CUSDC",
-      "name": "cUSDC",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/9442/thumb/Compound_USDC.png?1567581577"
-    },
-    {
-      "chainId": 1,
-      "address": "0xf650C3d88D12dB855b8bf7D11Be6C55A4e07dCC9",
-      "symbol": "CUSDT",
-      "name": "cUSDT",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/11621/thumb/cUSDT.png?1592113270"
     },
     {
       "chainId": 1,
@@ -207,83 +31,11 @@
     },
     {
       "chainId": 1,
-      "address": "0x5BC25f649fc4e26069dDF4cF4010F9f706c23831",
-      "symbol": "DUSD",
-      "name": "DefiDollar",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12333/thumb/defidollar_logo.png?1599116360"
-    },
-    {
-      "chainId": 1,
-      "address": "0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f",
-      "symbol": "EURE",
-      "name": "Monerium EUR emoney",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/23354/thumb/eur.png?1643926562"
-    },
-    {
-      "chainId": 1,
-      "address": "0xA967Dd943B336680540011536E7D8c3d33333515",
-      "symbol": "EURL",
-      "name": "Lugh",
-      "decimals": 6,
-      "logoURI": "ipfs://QmaT499Xv3zmw3EtHxbfPoWHi1QFKyz1nL2ypVVvTKJtBR"
-    },
-    {
-      "chainId": 1,
       "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
       "symbol": "EUROC",
       "name": "Euro Coin",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/26045/thumb/euro-coin.png?1655394420"
-    },
-    {
-      "chainId": 1,
-      "address": "0x37129b96896891e56bc099540fe7D1841005A367",
-      "symbol": "EUROS",
-      "name": "SpiceEURO",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/26443/thumb/E4B6C93A-E2A1-4F53-BB26-15D0FE802812.png?1658110215"
-    },
-    {
-      "chainId": 1,
-      "address": "0xdB25f211AB05b1c97D595516F45794528a807ad8",
-      "symbol": "EURS",
-      "name": "STASIS EURO",
-      "decimals": 2,
-      "logoURI": "https://assets.coingecko.com/coins/images/5164/thumb/EURS_300x300.png?1550571779"
-    },
-    {
-      "chainId": 1,
-      "address": "0xB1aBd7ABa7d99BBEfb33D1dfc66B0dD522335350",
-      "symbol": "EURST",
-      "name": "Euro Stable Token",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/20988/thumb/AF3E1D9F-4817-4FC4-BC80-FFF30A3E1B91.PNG?1638169603"
-    },
-    {
-      "chainId": 1,
-      "address": "0xC581b735A1688071A1746c968e0798D642EDE491",
-      "symbol": "EURT",
-      "name": "Euro Tether",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/17385/thumb/Tether_full_logo_dm.png?1627537298"
-    },
-    {
-      "chainId": 1,
-      "address": "0x6c139349ee94eBAaff55eD52d382673C263B22d6",
-      "symbol": "EURU",
-      "name": "Upper Euro",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12353/thumb/euru.png?1642929585"
-    },
-    {
-      "chainId": 1,
-      "address": "0xa774FFB4AF6B0A91331C084E1aebAE6Ad535e6F3",
-      "symbol": "FLEXUSD",
-      "name": "flexUSD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13323/thumb/flexUSD_2x.png?1607480702"
     },
     {
       "chainId": 1,
@@ -295,130 +47,11 @@
     },
     {
       "chainId": 1,
-      "address": "0x8616E8EA83f048ab9A5eC513c9412Dd2993bcE3F",
-      "symbol": "FXUSD",
-      "name": "handleUSD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/26954/thumb/fxUSDLogo_200px-200px.png?1660988882"
-    },
-    {
-      "chainId": 1,
-      "address": "0x86B4dBE5D203e634a12364C0e428fa242A3FbA98",
-      "symbol": "GBPT",
-      "name": "poundtoken",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/26591/thumb/gbpt.jpeg?1658958061"
-    },
-    {
-      "chainId": 1,
-      "address": "0x27ed129C298c5Df130364083F491e2920E5A2f29",
-      "symbol": "GBPU",
-      "name": "Upper Pound",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12357/thumb/gbpu.png?1642929642"
-    },
-    {
-      "chainId": 1,
       "address": "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd",
       "symbol": "GUSD",
       "name": "GeminiDollar",
       "decimals": 2,
       "logoURI": "https://gemini.com/images/currencies/icons/default/gusd.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0xdF574c24545E5FfEcb9a659c229253D4111d87e1",
-      "symbol": "HUSD",
-      "name": "HUSD",
-      "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/9567/thumb/HUSD.jpg?1568889385"
-    },
-    {
-      "chainId": 1,
-      "address": "0x96E61422b6A9bA0e068B6c5ADd4fFaBC6a4aae27",
-      "symbol": "IBEUR",
-      "name": "Iron Bank EURO",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/17285/thumb/Iron_Bank_Euro.png?1627900506"
-    },
-    {
-      "chainId": 1,
-      "address": "0x69681f8fde45345C3870BCD5eaf4A05a60E7D227",
-      "symbol": "IBGBP",
-      "name": "Iron Bank GBP",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/18576/thumb/logo-128_%283%29.png?1632470148"
-    },
-    {
-      "chainId": 1,
-      "address": "0xc87f0a3F3671F7d01278625561dc6e284B62daE9",
-      "symbol": "IEUROS",
-      "name": "Inflation Adjusted EURO",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/26442/thumb/894CE468-A364-42BA-83B0-60A7CA859614.png?1658110157"
-    },
-    {
-      "chainId": 1,
-      "address": "0x49f4592E641820e928F9919Ef4aBd92a719B4b49",
-      "symbol": "iSUSD",
-      "name": "Fulcrum sUSD iToken",
-      "decimals": 18,
-      "logoURI": "ipfs://QmTddtmEus5gH7eyEBjqeg7MZZGbXqYVc93WoVzLNvX252"
-    },
-    {
-      "chainId": 1,
-      "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
-      "symbol": "IUSD",
-      "name": "iZUMi Bond USD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25388/thumb/iusd-logo-symbol-10k%E5%A4%A7%E5%B0%8F.png?1651660620"
-    },
-    {
-      "chainId": 1,
-      "address": "0xc8871267e07408b89aA5aEcc58AdCA5E574557F8",
-      "symbol": "IUSDC",
-      "name": "Instadapp USDC",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/25820/thumb/iUSDC_100x100.png?1654055475"
-    },
-    {
-      "chainId": 1,
-      "address": "0x32E4c68B3A4a813b710595AebA7f6B7604Ab9c15",
-      "symbol": "iUSDC",
-      "name": "Fulcrum USDC iToken",
-      "decimals": 6,
-      "logoURI": "ipfs://QmXyhqKCVCc4qBq9CLyZ1DWbByy2fprbaFgD13PaDDZhzX"
-    },
-    {
-      "chainId": 1,
-      "address": "0xF9C2B386FF5Df088AC717ab0010587bad3bC1ab1",
-      "symbol": "IUSDS",
-      "name": "Inflation Adjusted USDS",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25698/thumb/iUSDS2.png?1653441251"
-    },
-    {
-      "chainId": 1,
-      "address": "0x0f17BC9a994b87b5225cFb6a2Cd4D667ADb4F20B",
-      "symbol": "JEUR",
-      "name": "Jarvis Synthetic Euro",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15725/thumb/jEUR.png?1634046044"
-    },
-    {
-      "chainId": 1,
-      "address": "0x7409856CAE628f5d578B285B45669b36E7005283",
-      "symbol": "JGBP",
-      "name": "Jarvis Synthetic British Pound",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/15726/thumb/jGBP.png?1634046064"
-    },
-    {
-      "chainId": 1,
-      "address": "0xa124ff1e97e7f3e4a796f6a2d3Bf5d0e2D41973D",
-      "symbol": "kUSDC",
-      "name": "KAKI USDC",
-      "decimals": 18
     },
     {
       "chainId": 1,
@@ -430,98 +63,6 @@
     },
     {
       "chainId": 1,
-      "address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5",
-      "symbol": "MUSD",
-      "name": "mStable USD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/11576/thumb/mStable_USD.png?1595591803"
-    },
-    {
-      "chainId": 1,
-      "address": "0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86",
-      "symbol": "OUSD",
-      "name": "Origin Dollar",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12589/thumb/ousd-logo-200x200.png?1600943287"
-    },
-    {
-      "chainId": 1,
-      "address": "0x466a756E9A7401B5e2444a3fCB3c2C12FBEa0a54",
-      "symbol": "PUSD",
-      "name": "PUSd",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25858/thumb/PUSd.png?1654161232"
-    },
-    {
-      "chainId": 1,
-      "address": "0x18A908eD663823C908A900b934D6249d4befbE44",
-      "symbol": "sBUSD",
-      "name": "Strike BUSD",
-      "decimals": 8,
-      "logoURI": "ipfs://QmXsjpJPzxma3C4fMNVNg7QPiGmAJC57YZbDkUmgcNHjTc"
-    },
-    {
-      "chainId": 1,
-      "address": "0xD71eCFF9342A5Ced620049e616c5035F1dB98620",
-      "symbol": "SEUR",
-      "name": "sEUR",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13637/thumb/sEUR.png?1610609277"
-    },
-    {
-      "chainId": 1,
-      "address": "0x97fe22E7341a0Cd8Db6F6C021A24Dc8f4DAD855F",
-      "symbol": "sGBP",
-      "name": "Synth sGBP",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
-      "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
-      "symbol": "sUSD",
-      "name": "Synth sUSD",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
-      "address": "0x57Ab1E02fEE23774580C119740129eAC7081e9D3",
-      "symbol": "sUSD",
-      "name": "sUSD",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
-      "address": "0x3774E825d567125988Fb293e926064B6FAa71DAB",
-      "symbol": "sUSDC",
-      "name": "Strike USDC",
-      "decimals": 8,
-      "logoURI": "ipfs://QmaQvbi2zdhUmDFxHKhT6KZGYCb7nhUtFBaPC5itFyaysW"
-    },
-    {
-      "chainId": 1,
-      "address": "0x69702cfd7DAd8bCcAA24D6B440159404AAA140F5",
-      "symbol": "sUSDT",
-      "name": "Strike USDT",
-      "decimals": 8,
-      "logoURI": "ipfs://QmQJG7sfaaL6QmP3PamNiDhhBiJWGxqP7KQ4XuasFMmoRH"
-    },
-    {
-      "chainId": 1,
-      "address": "0x77C6E4a580c0dCE4E5c7a17d0bc077188a83A059",
-      "symbol": "SWUSD",
-      "name": "Swerve fi USD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12918/thumb/swerve.png?1603631063"
-    },
-    {
-      "chainId": 1,
-      "address": "0x00000000441378008EA67F4284A57932B1c000a5",
-      "symbol": "TGBP",
-      "name": "TrueGBP",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
       "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
       "symbol": "TUSD",
       "name": "TrueUSD",
@@ -529,128 +70,10 @@
     },
     {
       "chainId": 1,
-      "address": "0x256845e721C0c46d54E6afBD4FA3B52CB72353EA",
-      "symbol": "UNIUSD",
-      "name": "UniDollar",
-      "decimals": 18,
-      "logoURI": "ipfs://QmQubAovbLJZHBCkTuSpJBCsYfTEiNNkypnd1ph6rtG38j"
-    },
-    {
-      "chainId": 1,
-      "address": "0x44086035439E676c02D411880FcCb9837CE37c57",
-      "symbol": "USD",
-      "name": "unified Stable Dollar",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12259/thumb/Uniswap_State_Dollar.png?1598550804"
-    },
-    {
-      "chainId": 1,
-      "address": "0xd233D1f6FD11640081aBB8db125f722b5dc729dc",
-      "symbol": "USD",
-      "name": "Dollars",
-      "decimals": 9
-    },
-    {
-      "chainId": 1,
-      "address": "0x9A48BD0EC040ea4f1D3147C025cd4076A2e71e3e",
-      "symbol": "USD++",
-      "name": "PieDAO USD++",
-      "decimals": 18,
-      "logoURI": "ipfs://QmeE94srcYV9WwJb1p42eM4zncdLUai2N9zmMxxukoEQ23"
-    },
-    {
-      "chainId": 1,
-      "address": "0xf6c0aA7eBFE9992200C67E5388E4F42da49E1783",
-      "symbol": "USD1",
-      "name": "Psyche",
-      "decimals": 2,
-      "logoURI": "https://assets.coingecko.com/coins/images/13661/thumb/Psyche-logo-256.png?1610600682"
-    },
-    {
-      "chainId": 1,
-      "address": "0x9a1997C130f4b2997166975D9AFf92797d5134c2",
-      "symbol": "USDAP",
-      "name": "BondAppetite USD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14874/thumb/USDap_%281%29.png?1618822197"
-    },
-    {
-      "chainId": 1,
-      "address": "0x309627af60F0926daa6041B8279484312f2bf060",
-      "symbol": "USDB",
-      "name": "USD Bancor",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/10619/thumb/busd.png?1581026228"
-    },
-    {
-      "chainId": 1,
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "symbol": "USDC",
       "name": "USD Coin",
       "decimals": 6
-    },
-    {
-      "chainId": 1,
-      "address": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
-      "symbol": "USDD",
-      "name": "USDD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25380/thumb/UUSD.jpg?1651823371"
-    },
-    {
-      "chainId": 1,
-      "address": "0x963035453633f6f7433032c958F82Eb3043D8cD2",
-      "symbol": "USDF",
-      "name": "USD Freedom",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/26920/thumb/USDF_200x200.png?1660815930"
-    },
-    {
-      "chainId": 1,
-      "address": "0x2B4200A8D373d484993C37d63eE14AeE0096cd12",
-      "symbol": "USDFL",
-      "name": "USDFreeLiquidity",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
-      "address": "0x2A54bA2964C8Cd459Dc568853F79813a60761B58",
-      "symbol": "USDI",
-      "name": "Interest Protocol USDi",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25999/thumb/20598.png?1655277115"
-    },
-    {
-      "chainId": 1,
-      "address": "0x1c48f86ae57291F7686349F12601910BD8D470bb",
-      "symbol": "USDK",
-      "name": "USDK",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/8824/thumb/usdk.png?1563418517"
-    },
-    {
-      "chainId": 1,
-      "address": "0x31d4Eb09a216e181eC8a43ce79226A487D6F0BA9",
-      "symbol": "USDM",
-      "name": "USDM",
-      "decimals": 18,
-      "logoURI": "ipfs://QmQ7NFtPB9SRTPNwFdC8f9U4qJqosQBUiEv29QKJzqv4Jz"
-    },
-    {
-      "chainId": 1,
-      "address": "0x674C6Ad92Fd080e4004b2312b45f796a192D27a0",
-      "symbol": "USDN",
-      "name": "Neutrino USD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/10117/thumb/78GWcZu.png?1600845716"
-    },
-    {
-      "chainId": 1,
-      "address": "0x1456688345527bE1f37E9e627DA0837D6f08C925",
-      "symbol": "USDP",
-      "name": "USDP Stablecoin",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13234/thumb/USDP.png?1606579598"
     },
     {
       "chainId": 1,
@@ -662,151 +85,10 @@
     },
     {
       "chainId": 1,
-      "address": "0x4954Db6391F4feB5468b6B943D4935353596aEC9",
-      "symbol": "USDQ",
-      "name": "USDQ Stablecoin by Q DAO v1.0",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
-      "address": "0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe",
-      "symbol": "USDS",
-      "name": "Stably USDS",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/7596/thumb/Stably_USDS_-_Icon_%28Standard%29.png?1663824111"
-    },
-    {
-      "chainId": 1,
-      "address": "0x45fDb1b92a649fb6A64Ef1511D3Ba5Bf60044838",
-      "symbol": "USDS",
-      "name": "SpiceUSD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25697/thumb/USDS.png?1653440948"
-    },
-    {
-      "chainId": 1,
       "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
       "symbol": "USDT",
       "name": "Tether USD",
       "decimals": 6
-    },
-    {
-      "chainId": 1,
-      "address": "0x1CDD2EaB61112697626F7b4bB0e23Da4FeBF7B7C",
-      "symbol": "USDTSO",
-      "name": "Tether USD  Wormhole ",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/22881/thumb/USDTso_wh_small.png?1644223113"
-    },
-    {
-      "chainId": 1,
-      "address": "0x41a03E41eF555392c9f0AD60f4F61E263078BF10",
-      "symbol": "USDU",
-      "name": "Upper Dollar",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12332/thumb/usdu.png?1642929548"
-    },
-    {
-      "chainId": 1,
-      "address": "0x2F6081E3552b1c86cE4479B80062A1ddA8EF23E3",
-      "symbol": "USDX",
-      "name": "Dollars",
-      "decimals": 9,
-      "logoURI": "https://assets.coingecko.com/coins/images/12377/thumb/rCdP56C.png?1599445426"
-    },
-    {
-      "chainId": 1,
-      "address": "0xeb269732ab75A6fD61Ea60b06fE994cD32a83549",
-      "symbol": "USDx",
-      "name": "dForce",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
-      "address": "0x8baEF8c9568c21B1a2b2fd048F8b4Da835691fD0",
-      "symbol": "USDZ",
-      "name": "USD ZEE",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/24876/thumb/003.png?1649217016"
-    },
-    {
-      "chainId": 1,
-      "address": "0xa693B19d2931d498c5B318dF961919BB4aee87a5",
-      "symbol": "UST",
-      "name": "TerraUSD  Wormhole ",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/21150/thumb/UST_wh_small.png?1644223065"
-    },
-    {
-      "chainId": 1,
-      "address": "0xBc5991cCd8cAcEba01edC44C2BB9832712c29cAB",
-      "symbol": "UUSDC",
-      "name": "Unagii USD Coin",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/13781/thumb/uUSDC.png?1611729843"
-    },
-    {
-      "chainId": 1,
-      "address": "0x178Bf8fD04b47D2De3eF3f6b3D112106375ad584",
-      "symbol": "UUSDT",
-      "name": "Unagii Tether USD",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/13778/thumb/uUSDT.png?1611729448"
-    },
-    {
-      "chainId": 1,
-      "address": "0x677ddbd918637E5F2c79e164D402454dE7dA8619",
-      "symbol": "VUSD",
-      "name": "Vesper V Dollar",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/16253/thumb/Vesper_Token_600.png?1623394697"
-    },
-    {
-      "chainId": 1,
-      "address": "0xad3E3Fc59dff318BecEaAb7D00EB4F68b1EcF195",
-      "symbol": "WCUSD",
-      "name": "Wrapped Celo USD",
-      "decimals": 18,
-      "logoURI": "ipfs://QmUM5VwFQzRvJDVkmrZfdeY69kEz22XkmPdMrQRSeLZbZv"
-    },
-    {
-      "chainId": 1,
-      "address": "0xe577e0B200d00eBdecbFc1cd3F7E8E04C70476BE",
-      "symbol": "xEUR",
-      "name": "xEURO",
-      "decimals": 0
-    },
-    {
-      "chainId": 1,
-      "address": "0x5f18C75AbDAe578b483E5F43f12a39cF75b973a9",
-      "symbol": "yvUSDC",
-      "name": "USDC yVault",
-      "decimals": 6,
-      "logoURI": "ipfs://QmVsXwEs6rCZZetwQnQi2wGtURHHP4XtFp6uHKPsW1LS3n"
-    },
-    {
-      "chainId": 1,
-      "address": "0x7Da96a3891Add058AdA2E826306D812C638D87a7",
-      "symbol": "yvUSDT",
-      "name": "USDT yVault",
-      "decimals": 6,
-      "logoURI": "ipfs://QmW1W2LV97uQVozcN9cEH82jX6tE3APTHh3dMaNB1CbbjM"
-    },
-    {
-      "chainId": 1,
-      "address": "0xc56c2b7e71B54d38Aab6d52E94a04Cbfa8F604fA",
-      "symbol": "ZUSD",
-      "name": "ZUSD",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/14192/thumb/icon_zusd_200_200.png?1614843297"
-    },
-    {
-      "chainId": 1,
-      "address": "0xbf0f3cCB8fA385A287106FbA22e6BB722F94d686",
-      "symbol": "ZUSD",
-      "name": "Zytara Dollar",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/13957/thumb/zusd.png?1613353410"
     },
     {
       "chainId": 10,
@@ -834,14 +116,6 @@
     },
     {
       "chainId": 10,
-      "address": "0xcB59a0A753fDB7491d5F3D794316F1adE197B21E",
-      "symbol": "TUSD",
-      "name": "TrueUSD",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/TUSD/logo.png"
-    },
-    {
-      "chainId": 10,
       "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
       "symbol": "USDC",
       "name": "USDCoin",
@@ -850,27 +124,11 @@
     },
     {
       "chainId": 10,
-      "address": "0x7113370218f31764C1B6353BDF6004d86fF6B9cc",
-      "symbol": "USDD",
-      "name": "Decentralized USD",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/USDD/logo.png"
-    },
-    {
-      "chainId": 10,
       "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
       "symbol": "USDT",
       "name": "Tether USD",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
-    },
-    {
-      "chainId": 10,
-      "address": "0xBA28feb4b6A6b81e3F26F08b83a19E715C4294fd",
-      "symbol": "UST",
-      "name": "UST (Wormhole)",
-      "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/data/UST/logo.png"
     },
     {
       "chainId": 56,
@@ -890,30 +148,6 @@
     },
     {
       "chainId": 56,
-      "address": "0x23e8a70534308a4AAF76fb8C32ec13d17a3BD89e",
-      "symbol": "lUSD",
-      "name": "lUSD",
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x23e8a70534308a4AAF76fb8C32ec13d17a3BD89e.png"
-    },
-    {
-      "chainId": 56,
-      "address": "0x07663837218A003e66310a01596af4bf4e44623D",
-      "symbol": "rUSD",
-      "name": "rUSD",
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x07663837218A003e66310a01596af4bf4e44623D.png"
-    },
-    {
-      "chainId": 56,
-      "address": "0x14016E85a25aeb13065688cAFB43044C2ef86784",
-      "symbol": "TUSD",
-      "name": "True USD",
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x14016E85a25aeb13065688cAFB43044C2ef86784.png"
-    },
-    {
-      "chainId": 56,
       "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
       "symbol": "USDC",
       "name": "Binance Pegged USD Coin",
@@ -929,44 +163,12 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/0x55d398326f99059fF775485246999027B3197955.png"
     },
     {
-      "chainId": 56,
-      "address": "0x23396cF899Ca06c4472205fC903bDB4de249D6fC",
-      "symbol": "UST",
-      "name": "UST Token",
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x23396cF899Ca06c4472205fC903bDB4de249D6fC.png"
-    },
-    {
       "chainId": 137,
       "address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
       "symbol": "agEUR",
       "name": "agEUR",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/19479/small/agEUR.png?1635283566"
-    },
-    {
-      "chainId": 137,
-      "address": "0x1a13F4Ca1d028320A707D99520AbFefca3998b7F",
-      "symbol": "amUSDC",
-      "name": "Aave Matic Market USDC",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/cometh-game/default-token-list/master/img/aUSDC.png"
-    },
-    {
-      "chainId": 137,
-      "address": "0x60D55F02A771d515e077c9C2403a1ef324885CeC",
-      "symbol": "amUSDT",
-      "name": "Aave Matic Market USDT",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/cometh-game/default-token-list/master/img/aUSDT.png"
-    },
-    {
-      "chainId": 137,
-      "address": "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7",
-      "symbol": "BUSD",
-      "name": "Binance USD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/9576/thumb/BUSD.png?1568947766"
     },
     {
       "chainId": 137,
@@ -978,131 +180,11 @@
     },
     {
       "chainId": 137,
-      "address": "0x8a037dbcA8134FFc72C362e394e35E0Cad618F85",
-      "symbol": "EUROC",
-      "name": "Euro Coin",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/26045/thumb/euro-coin.png?1655394420"
-    },
-    {
-      "chainId": 137,
-      "address": "0x4eBdE54ba404bE158262EDe801744b92b9878c61",
-      "symbol": "eUSDC",
-      "name": "Easy USDC",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/sameepsi/quickswap-interface/master/assets/easyfi-token.png"
-    },
-    {
-      "chainId": 137,
-      "address": "0xfc39742Fe9420a7Af23757Fc7E78D1c3AE4A9474",
-      "symbol": "eUSDT",
-      "name": "Easy USDT",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/sameepsi/quickswap-interface/master/assets/easyfi-token.png"
-    },
-    {
-      "chainId": 137,
-      "address": "0x104592a158490a9228070E0A8e5343B499e125D0",
-      "symbol": "FRAX",
-      "name": "Frax",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13422/thumb/frax_logo.png?1608476506"
-    },
-    {
-      "chainId": 137,
-      "address": "0x45c32fA6DF82ead1e2EF74d17b76547EDdFaFF89",
-      "symbol": "FRAX",
-      "name": "Frax",
-      "decimals": 18,
-      "logoURI": "https://polygonscan.com/token/images/frax_32.png"
-    },
-    {
-      "chainId": 137,
-      "address": "0xC8A94a3d3D2dabC3C1CaffFFDcA6A7543c3e3e65",
-      "symbol": "GUSD",
-      "name": "Gemini Dollar",
-      "decimals": 2,
-      "logoURI": "https://assets.coingecko.com/coins/images/5992/thumb/gemini-dollar-gusd.png?1536745278"
-    },
-    {
-      "chainId": 137,
       "address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
       "symbol": "jEUR",
       "name": "Jarvis Synthetic Euro",
       "decimals": 18,
       "logoURI": "ipfs://QmP7Zuge5KtfynU1bCCRehSYvtPV6daeCoqmi6jjF4uaBK"
-    },
-    {
-      "chainId": 137,
-      "address": "0x767058F11800FBA6A682E73A6e79ec5eB74Fac8c",
-      "symbol": "jGBP",
-      "name": "Jarvis Synthetic British Pound",
-      "decimals": 18,
-      "logoURI": "ipfs://QmaKUzL3URtVAJXomCqgW9nonUn93D7Ufipkq4j2mrxM8n"
-    },
-    {
-      "chainId": 137,
-      "address": "0x23001f892c0C82b79303EDC9B9033cD190BB21c7",
-      "symbol": "LUSD",
-      "name": "Liquity USD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14666/thumb/Group_3.png?1617631327"
-    },
-    {
-      "chainId": 137,
-      "address": "0xF4b8888427b00d7caf21654408B7CBA2eCf4EbD9",
-      "symbol": "maTUSD",
-      "name": "Matic Aave interest bearing TUSD",
-      "decimals": 18,
-      "logoURI": "https://aavegotchi.com/images/matokens/maTUSD.svg"
-    },
-    {
-      "chainId": 137,
-      "address": "0x9719d867A500Ef117cC201206B8ab51e794d3F82",
-      "symbol": "maUSDC",
-      "name": "Matic Aave interest bearing USDC",
-      "decimals": 6,
-      "logoURI": "https://aavegotchi.com/images/matokens/maUSDC.svg"
-    },
-    {
-      "chainId": 137,
-      "address": "0xDAE5F1590db13E3B40423B5b5c5fbf175515910b",
-      "symbol": "maUSDT",
-      "name": "Matic Aave interest bearing USDT",
-      "decimals": 6,
-      "logoURI": "https://aavegotchi.com/images/matokens/maUSDT.svg"
-    },
-    {
-      "chainId": 137,
-      "address": "0xfC40a4F89b410a1b855b5e205064a38fC29F5eb5",
-      "symbol": "rUSD",
-      "name": "rUSD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/16184/small/rUSD-Logo-200.png?1623231145"
-    },
-    {
-      "chainId": 137,
-      "address": "0xF81b4Bec6Ca8f9fe7bE01CA734F55B2b6e03A7a0",
-      "symbol": "sUSD",
-      "name": "Synth sUSD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/5013/thumb/sUSD.png?1616150765"
-    },
-    {
-      "chainId": 137,
-      "address": "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756",
-      "symbol": "TUSD",
-      "name": "TrueUSD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/3449/small/tusd.png?1618395665"
-    },
-    {
-      "chainId": 137,
-      "address": "0x236eeC6359fb44CCe8f97E99387aa7F8cd5cdE1f",
-      "symbol": "USD+",
-      "name": "USD+",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/25757/small/USD__logo.png?1653519267"
     },
     {
       "chainId": 137,
@@ -1114,43 +196,11 @@
     },
     {
       "chainId": 137,
-      "address": "0xFFA4D863C96e743A2e1513824EA006B8D0353C57",
-      "symbol": "USDD",
-      "name": "Decentralized USD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/25380/small/UUSD.jpg?1651823371"
-    },
-    {
-      "chainId": 137,
       "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
       "symbol": "USDT",
       "name": "Tether USD",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
-    },
-    {
-      "chainId": 137,
-      "address": "0x692597b009d13C4049a947CAB2239b7d6517875F",
-      "symbol": "UST",
-      "name": "Wrapped UST Token",
-      "decimals": 18,
-      "logoURI": "https://etherscan.io/token/images/terra-ust_32.png"
-    },
-    {
-      "chainId": 137,
-      "address": "0x3A3e7650f8B9f667dA98F236010fBf44Ee4B2975",
-      "symbol": "xUSD",
-      "name": "xDollar Stablecoin",
-      "decimals": 18,
-      "logoURI": "https://app.fluidy.fi/logo-xusd_origin.png"
-    },
-    {
-      "chainId": 250,
-      "address": "0x02a2b736F9150d36C0919F3aCEE8BA2A92FBBb40",
-      "symbol": "agEUR",
-      "name": "agEUR",
-      "decimals": 18,
-      "logoURI": "https://assets.spooky.fi/tokens/agEUR.png"
     },
     {
       "chainId": 250,
@@ -1162,27 +212,11 @@
     },
     {
       "chainId": 250,
-      "address": "0xE3a486C1903Ea794eED5d5Fa0C9473c7D7708f40",
-      "symbol": "cUSD",
-      "name": "Creditum USD",
-      "decimals": 18,
-      "logoURI": "https://assets.spooky.fi/tokens/cUSD.png"
-    },
-    {
-      "chainId": 250,
       "address": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
       "symbol": "DAI",
       "name": "Dai Stablecoin",
       "decimals": 18,
       "logoURI": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.svg?v=006"
-    },
-    {
-      "chainId": 250,
-      "address": "0xdc301622e621166BD8E82f2cA0A26c13Ad0BE355",
-      "symbol": "FRAX",
-      "name": "Frax",
-      "decimals": 18,
-      "logoURI": "https://assets.spooky.fi/tokens/FRAX.png"
     },
     {
       "chainId": 250,
@@ -1194,14 +228,6 @@
     },
     {
       "chainId": 250,
-      "address": "0x9879aBDea01a879644185341F7aF7d8343556B7a",
-      "symbol": "TUSD",
-      "name": "TrueUSD",
-      "decimals": 18,
-      "logoURI": "https://assets.spooky.fi/tokens/TUSD.png"
-    },
-    {
-      "chainId": 250,
       "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
       "symbol": "USDC",
       "name": "USD Coin",
@@ -1210,58 +236,11 @@
     },
     {
       "chainId": 42161,
-      "address": "0x31190254504622cEFdFA55a7d3d272e6462629a2",
-      "symbol": "BUSD",
-      "name": "Binance USD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/9576/thumb/BUSD.png?1568947766"
-    },
-    {
-      "chainId": 42161,
       "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
       "symbol": "DAI",
       "name": "Dai Stablecoin",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
-    },
-    {
-      "chainId": 42161,
-      "address": "0x7468a5d8E02245B00E8C0217fCE021C70Bc51305",
-      "symbol": "FRAX",
-      "name": "Frax",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13422/thumb/frax_logo.png?1608476506"
-    },
-    {
-      "chainId": 42161,
-      "address": "0x4f947b40BEEB9D8130437781a560E5c7D089730f",
-      "symbol": "kUSDC",
-      "name": "KAKI USDC",
-      "decimals": 18
-    },
-    {
-      "chainId": 42161,
-      "address": "0x93b346b6BC2548dA6A1E7d98E9a421B42541425b",
-      "symbol": "LUSD",
-      "name": "Liquity USD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14666/thumb/Group_3.png?1617631327"
-    },
-    {
-      "chainId": 42161,
-      "address": "0xA970AF1a584579B618be4d69aD6F73459D112F95",
-      "symbol": "sUSD",
-      "name": "Synth sUSD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/5013/thumb/sUSD.png?1616150765"
-    },
-    {
-      "chainId": 42161,
-      "address": "0x4D15a3A2286D883AF0AA1B3f21367843FAc63E07",
-      "symbol": "TUSD",
-      "name": "TrueUSD",
-      "decimals": 18,
-      "logoURI": "https://images.prismic.io/tusd-homepage/fb4d581a-95ed-404c-b9de-7ab1365c1386_%E5%9B%BE%E5%B1%82+1.png"
     },
     {
       "chainId": 42161,
@@ -1281,51 +260,11 @@
     },
     {
       "chainId": 43114,
-      "address": "0x6feFd97F328342a8A840546A55FDcfEe7542F9A8",
-      "symbol": "agEUR",
-      "name": "agEUR",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0x6feFd97F328342a8A840546A55FDcfEe7542F9A8/logo_24.png"
-    },
-    {
-      "chainId": 43114,
-      "address": "0x783C08b5F26E3daf8C4681F3bf49844e425b6393",
-      "symbol": "AUSD",
-      "name": "Avaware USD",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0x783C08b5F26E3daf8C4681F3bf49844e425b6393/logo_24.png"
-    },
-    {
-      "chainId": 43114,
-      "address": "0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39",
-      "symbol": "BUSD",
-      "name": "BUSD Token",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39/logo_24.png"
-    },
-    {
-      "chainId": 43114,
-      "address": "0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98",
-      "symbol": "BUSD.e",
-      "name": "Binance USD",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0x19860CCB0A68fd4213aB9D8266F7bBf05A8dDe98/logo_24.png"
-    },
-    {
-      "chainId": 43114,
       "address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
       "symbol": "DAI.e",
       "name": "Dai Stablecoin",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70/logo_24.png"
-    },
-    {
-      "chainId": 43114,
-      "address": "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
-      "symbol": "FRAX",
-      "name": "Frax",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64/logo_24.png"
     },
     {
       "chainId": 43114,
@@ -1345,14 +284,6 @@
     },
     {
       "chainId": 43114,
-      "address": "0xcf799767d366d789e8B446981C2D578E241fa25c",
-      "symbol": "USDD",
-      "name": "Decentralized USD",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xcf799767d366d789e8B446981C2D578E241fa25c/logo_24.png"
-    },
-    {
-      "chainId": 43114,
       "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
       "symbol": "USDt",
       "name": "TetherToken",
@@ -1366,22 +297,6 @@
       "name": "Tether USD",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xc7198437980c041c805A1EDcbA50c1Ce5db95118/logo_24.png"
-    },
-    {
-      "chainId": 43114,
-      "address": "0xb599c3590F42f8F995ECfa0f85D2980B76862fc1",
-      "symbol": "UST",
-      "name": "Wormhole UST",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xb599c3590F42f8F995ECfa0f85D2980B76862fc1/logo_24.png"
-    },
-    {
-      "chainId": 43114,
-      "address": "0x111111111111ed1D73f860F57b2798b683f2d325",
-      "symbol": "YUSD",
-      "name": "YUSD Stablecoin",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/logos/0x111111111111ed1D73f860F57b2798b683f2d325/logo.png"
     },
     {
       "chainId": 42161,
