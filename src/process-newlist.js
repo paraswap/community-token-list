@@ -204,17 +204,19 @@ function cleanList(tlist, fullTokensList, path) {
     return newTList
 }
 
-function appendNewTokens(fullTokensList, path) {
+function appendNewTokens(appendTo, fullTokensList, path) {
     const newTList = {
         ...tokenlist,
         timestamp: new Date(),
         version: { "major": 2, "minor": 0, "patch": 0 },
-        tokens: fullTokensList.filter(t => {
-            return !allTokenLists.find(_t => (
-                _t.address.toLowerCase() == t.address.toLowerCase() &&
-                _t.chainId == t.chainId
-            ))
-        })
+        tokens: appendTo.concat(
+            fullTokensList.filter(t => {
+                return !allTokenLists.find(_t => (
+                    _t.address.toLowerCase() == t.address.toLowerCase() &&
+                    _t.chainId == t.chainId
+                ))
+            })
+        )
     }
 
     fs.writeFileSync(`${__dirname}/${path}`, beautify(newTList, null, 2, 80));
@@ -248,9 +250,9 @@ async function start() {
         ...tokenlist,
         tokens: tokenlist.tokens.filter(tl => !stablelist.tokens.find(st => st.address.toLowerCase() == tl.address.toLowerCase() && st.chainId == tl.chainId))
     }
-    cleanList(_tokenlist, fullTokensList, './sources/paraswap.tokenlist.json');
+    const newTL = cleanList(_tokenlist, fullTokensList, './sources/paraswap.tokenlist.json');
 
-    appendNewTokens(fullTokensList, './sources/paraswap.tokenlist.json');
+    appendNewTokens(newTL.tokens, fullTokensList, './sources/paraswap.tokenlist.json');
 
     //checkDuplicates()
 }
