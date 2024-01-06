@@ -1,6 +1,6 @@
 {
   "name": "ParaSwap Community Token Lists",
-  "timestamp": "2024-01-06T01:37:43.296Z",
+  "timestamp": "2024-01-06T02:17:43.847Z",
   "version": { "major": 2, "minor": 0, "patch": 0 },
   "tags": {},
   "logoURI": "https://uploads-ssl.webflow.com/617aa5e4225be2555942852c/6214d5c4db4ce4d976b5f1f9_logo_paraswap-handbook%20copy%201.svg",
@@ -96,13 +96,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
-      "symbol": "BUSD",
-      "name": "Binance USD",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
       "address": "0x6b1a8f210Ec6b7B6643cea3583Fb0c079f367898",
       "symbol": "BXX",
       "name": "Baanx",
@@ -167,14 +160,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-      "symbol": "DAI",
-      "name": "DaiStablecoin",
-      "decimals": 18,
-      "logoURI": "https://gemini.com/images/currencies/icons/default/dai.svg"
-    },
-    {
-      "chainId": 1,
       "address": "0x7B4328c127B85369D9f82ca0503B000D09CF9180",
       "symbol": "DC",
       "name": "Dogechain",
@@ -215,14 +200,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
-      "symbol": "EUROC",
-      "name": "Euro Coin",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/26045/thumb/euro-coin.png?1655394420"
-    },
-    {
-      "chainId": 1,
       "address": "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85",
       "symbol": "FET",
       "name": "Fetch.ai",
@@ -244,14 +221,6 @@
       "name": "Manifold Finance",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/15928/thumb/Manifold.png?1622439811"
-    },
-    {
-      "chainId": 1,
-      "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
-      "symbol": "FRAX",
-      "name": "Frax",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/13422/thumb/frax_logo.png?1608476506"
     },
     {
       "chainId": 1,
@@ -284,14 +253,6 @@
       "name": "The Graph",
       "decimals": 18,
       "logoURI": "https://gemini.com/images/currencies/icons/default/grt.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd",
-      "symbol": "GUSD",
-      "name": "GeminiDollar",
-      "decimals": 2,
-      "logoURI": "https://gemini.com/images/currencies/icons/default/gusd.svg"
     },
     {
       "chainId": 1,
@@ -380,14 +341,6 @@
       "name": "Liquity",
       "decimals": 18,
       "logoURI": "https://gemini.com/images/currencies/icons/default/lqty.svg"
-    },
-    {
-      "chainId": 1,
-      "address": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
-      "symbol": "LUSD",
-      "name": "Liquity USD",
-      "decimals": 18,
-      "logoURI": "https://gemini.com/images/currencies/icons/default/lusd.svg"
     },
     {
       "chainId": 1,
@@ -615,13 +568,6 @@
     },
     {
       "chainId": 1,
-      "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
-      "symbol": "TUSD",
-      "name": "TrueUSD",
-      "decimals": 18
-    },
-    {
-      "chainId": 1,
       "address": "0x249e38Ea4102D0cf8264d3701f1a0E39C4f2DC3B",
       "symbol": "UFO",
       "name": "UFO Gaming",
@@ -643,28 +589,6 @@
       "name": "UniDex",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/13178/thumb/unidx.png?1634888975"
-    },
-    {
-      "chainId": 1,
-      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-      "symbol": "USDC",
-      "name": "USD Coin",
-      "decimals": 6
-    },
-    {
-      "chainId": 1,
-      "address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
-      "symbol": "USDP",
-      "name": "Pax Dollar",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/6013/thumb/Pax_Dollar.png?1629877204"
-    },
-    {
-      "chainId": 1,
-      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-      "symbol": "USDT",
-      "name": "Tether USD",
-      "decimals": 6
     },
     {
       "chainId": 1,
@@ -770,27 +694,11 @@
     },
     {
       "chainId": 10,
-      "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
-      "symbol": "DAI",
-      "name": "Dai Stablecoin",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
-    },
-    {
-      "chainId": 10,
       "address": "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
       "symbol": "LINK",
       "name": "ChainLink Token",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
-    },
-    {
-      "chainId": 10,
-      "address": "0xc40F949F8a4e094D1b49a23ea9241D289B7b2819",
-      "symbol": "LUSD",
-      "name": "Liquity USD",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/14666/thumb/Group_3.png?1617631327"
     },
     {
       "chainId": 10,
@@ -815,30 +723,6 @@
       "name": "Synthetix Network Token",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png"
-    },
-    {
-      "chainId": 10,
-      "address": "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9",
-      "symbol": "sUSD",
-      "name": "Synthetix USD",
-      "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/sUSD/logo.svg"
-    },
-    {
-      "chainId": 10,
-      "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
-      "symbol": "USDC",
-      "name": "USDCoin",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
-    },
-    {
-      "chainId": 10,
-      "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
-      "symbol": "USDT",
-      "name": "Tether USD",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
     },
     {
       "chainId": 10,
@@ -882,27 +766,11 @@
     },
     {
       "chainId": 56,
-      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
-      "symbol": "BUSD",
-      "name": "Binance Pegged BUSD",
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
-    },
-    {
-      "chainId": 56,
       "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
       "symbol": "CAKE",
       "name": "PancakeSwap Token",
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
-    },
-    {
-      "chainId": 56,
-      "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
-      "symbol": "DAI",
-      "name": "Binance Pegged DAI",
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3.png"
     },
     {
       "chainId": 56,
@@ -927,22 +795,6 @@
       "name": "Metis Token",
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xe552Fb52a4F19e44ef5A967632DBc320B0820639.png"
-    },
-    {
-      "chainId": 56,
-      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-      "symbol": "USDC",
-      "name": "Binance Pegged USD Coin",
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
-    },
-    {
-      "chainId": 56,
-      "address": "0x55d398326f99059fF775485246999027B3197955",
-      "symbol": "USDT",
-      "name": "Binance Pegged USDT",
-      "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/0x55d398326f99059fF775485246999027B3197955.png"
     },
     {
       "chainId": 56,
@@ -978,14 +830,6 @@
     },
     {
       "chainId": 137,
-      "address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
-      "symbol": "agEUR",
-      "name": "agEUR",
-      "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/19479/small/agEUR.png?1635283566"
-    },
-    {
-      "chainId": 137,
       "address": "0x9246a5F10A79a5a939b0C2a75A3AD196aAfDB43b",
       "symbol": "BETS",
       "name": "BetSwirl Token",
@@ -1015,14 +859,6 @@
       "name": "Curve DAO Token",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png"
-    },
-    {
-      "chainId": 137,
-      "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-      "symbol": "DAI",
-      "name": "Dai Stablecoin",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
     },
     {
       "chainId": 137,
@@ -1071,14 +907,6 @@
       "name": "PlanetIX",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/20927/small/IXT_SYMBOL_SVG_RGB_BLACK.png?1637934555"
-    },
-    {
-      "chainId": 137,
-      "address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c",
-      "symbol": "jEUR",
-      "name": "Jarvis Synthetic Euro",
-      "decimals": 18,
-      "logoURI": "ipfs://QmP7Zuge5KtfynU1bCCRehSYvtPV6daeCoqmi6jjF4uaBK"
     },
     {
       "chainId": 137,
@@ -1162,22 +990,6 @@
     },
     {
       "chainId": 137,
-      "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-      "symbol": "USDC",
-      "name": "USDCoin",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
-    },
-    {
-      "chainId": 137,
-      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-      "symbol": "USDT",
-      "name": "Tether USD",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
-    },
-    {
-      "chainId": 137,
       "address": "0xd0258a3fD00f38aa8090dfee343f10A9D4d30D3F",
       "symbol": "VOXEL",
       "name": "VOXEL Token",
@@ -1226,22 +1038,6 @@
     },
     {
       "chainId": 250,
-      "address": "0x0DeF844ED26409C5C46dda124ec28fb064D90D27",
-      "symbol": "CoUSD",
-      "name": "CoffinDollar",
-      "decimals": 18,
-      "logoURI": "https://assets.spooky.fi/tokens/CoUSD.png"
-    },
-    {
-      "chainId": 250,
-      "address": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
-      "symbol": "DAI",
-      "name": "Dai Stablecoin",
-      "decimals": 18,
-      "logoURI": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.svg?v=006"
-    },
-    {
-      "chainId": 250,
       "address": "0x74b23882a30290451A17c44f4F05243b6b58C76d",
       "symbol": "ETH",
       "name": "Wrapped Ether",
@@ -1250,27 +1046,11 @@
     },
     {
       "chainId": 250,
-      "address": "0x049d68029688eAbF473097a2fC38ef61633A3C7A",
-      "symbol": "fUSDT",
-      "name": "Frapped USDT",
-      "decimals": 6,
-      "logoURI": "https://seeklogo.com/images/T/tether-usdt-logo-FA55C7F397-seeklogo.com.png"
-    },
-    {
-      "chainId": 250,
       "address": "0x82f0B8B456c1A451378467398982d4834b6829c1",
       "symbol": "MIM",
       "name": "Magic Internet Money",
       "decimals": 18,
       "logoURI": "https://assets.spooky.fi/tokens/MIM.png"
-    },
-    {
-      "chainId": 250,
-      "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
-      "symbol": "USDC",
-      "name": "USD Coin",
-      "decimals": 6,
-      "logoURI": "https://cryptologos.cc/logos/usd-coin-usdc-logo.svg?v=006"
     },
     {
       "chainId": 250,
@@ -1322,22 +1102,6 @@
     },
     {
       "chainId": 42161,
-      "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
-      "symbol": "USDC",
-      "name": "USDCoin",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
-    },
-    {
-      "chainId": 42161,
-      "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-      "symbol": "USDT",
-      "name": "Tether USD",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
-    },
-    {
-      "chainId": 42161,
       "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
       "symbol": "WBTC",
       "name": "Wrapped BTC",
@@ -1351,14 +1115,6 @@
       "name": "Wrapped Ether",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
-    },
-    {
-      "chainId": 42161,
-      "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
-      "symbol": "DAI",
-      "name": "Dai Stablecoin",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
     },
     {
       "chainId": 43114,
@@ -1375,14 +1131,6 @@
       "name": "Bitcoin",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/logos/0x152b9d0FdC40C096757F570A51E494bd4b943E50/logo.png"
-    },
-    {
-      "chainId": 43114,
-      "address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
-      "symbol": "DAI.e",
-      "name": "Dai Stablecoin",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70/logo_24.png"
     },
     {
       "chainId": 43114,
@@ -1431,38 +1179,6 @@
       "name": "Staked AVAX",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE/logo_24.png"
-    },
-    {
-      "chainId": 43114,
-      "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
-      "symbol": "USDC",
-      "name": "USD Coin",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E/logo_24.png"
-    },
-    {
-      "chainId": 43114,
-      "address": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
-      "symbol": "USDC.e",
-      "name": "USD Coin",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/logo_24.png"
-    },
-    {
-      "chainId": 43114,
-      "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
-      "symbol": "USDt",
-      "name": "TetherToken",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo_24.png"
-    },
-    {
-      "chainId": 43114,
-      "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
-      "symbol": "USDT.e",
-      "name": "Tether USD",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/43114/0xc7198437980c041c805A1EDcbA50c1Ce5db95118/logo_24.png"
     },
     {
       "chainId": 43114,
@@ -1543,22 +1259,6 @@
       "name": "WSTETH",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/18834/standard/wstETH.png?1696518295"
-    },
-    {
-      "chainId": 42161,
-      "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
-      "symbol": "USDC",
-      "name": "USD Coin",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png?1696506694"
-    },
-    {
-      "chainId": 137,
-      "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
-      "symbol": "USDC",
-      "name": "USD Coin",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png?1696506694"
     }
   ]
 }

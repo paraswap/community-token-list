@@ -172,7 +172,7 @@ async function retrieveMissingTokensData() {
 
     const fullTokens = newlist.map(t => {
         if (!t.symbol) {
-            return missingTokensWithMeta.find(_t => _t.address == t.address && _t.chainId == t.chainId)
+            return missingTokensWithMeta.find(_t => _t.address.toLowerCase() == t.address.toLowerCase() && _t.chainId == t.chainId)
         }
         return t;
     })
@@ -199,6 +199,28 @@ function cleanList(tlist, fullTokensList, path) {
 
     fs.writeFileSync(`${__dirname}/${path}`, beautify(newTList, null, 2, 80));
 
+    console.log(newTList.tokens.length, 'vs', fullTokensList.length);
+
+    return newTList
+}
+
+function appendNewIntroTokens(fullTokensList, path) {
+    const newTList = {
+        ...extralist,
+        timestamp: new Date(),
+        version: { "major": 2, "minor": 0, "patch": 0 },
+        tokens: fullTokensList.filter(t => {
+            return !allTokenLists.find(_t => (
+                _t.address.toLowerCase() == t.address.toLowerCase() &&
+                _t.chainId == t.chainId
+            ))
+        })
+    }
+
+    fs.writeFileSync(`${__dirname}/${path}`, beautify(newTList, null, 2, 80));
+
+    console.log(newTList.tokens.length, 'vs', fullTokensList.length);
+
     return newTList
 }
 
@@ -209,7 +231,15 @@ async function start() {
 
     cleanList(extralist, fullTokensList, './sources/paraswap.extralist.json');
     cleanList(stablelist, fullTokensList, './sources/paraswap.stablelist.json');
-    cleanList(tokenlist, fullTokensList, './sources/paraswap.tokenlist.json');
+
+    //Remove existing duplicates
+    const _tokenlist = {
+        ...tokenlist,
+        tokens: tokenlist.tokens.filter(tl => !stablelist.tokens.find(st => st.address.toLowerCase() == tl.address.toLowerCase() && st.chainId == tl.chainId))
+    }
+    cleanList(_tokenlist, fullTokensList, './sources/paraswap.tokenlist.json');
+
+    appendNewIntroTokens(fullTokensList, './sources/paraswap.new-extralist.json');
 }
 
 start();

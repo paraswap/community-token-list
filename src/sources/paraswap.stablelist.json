@@ -1,11 +1,19 @@
 {
   "name": "ParaSwap Community Stablecoin Lists",
-  "timestamp": "2024-01-06T01:37:43.294Z",
+  "timestamp": "2024-01-06T02:17:43.843Z",
   "version": { "major": 2, "minor": 0, "patch": 0 },
   "tags": {},
   "logoURI": "https://uploads-ssl.webflow.com/617aa5e4225be2555942852c/6214d5c4db4ce4d976b5f1f9_logo_paraswap-handbook%20copy%201.svg",
   "keywords": [ "ParaSwap", "Token Lists", "DAO", "Community" ],
   "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+      "name": "Gho Token",
+      "symbol": "GHO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30663/large/ghoaave.jpeg"
+    },
     {
       "chainId": 1,
       "address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
