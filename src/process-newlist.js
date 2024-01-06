@@ -239,7 +239,7 @@ async function start() {
     }
     cleanList(_tokenlist, fullTokensList, './sources/paraswap.tokenlist.json');
 
-    appendNewIntroTokens(fullTokensList, './sources/paraswap.new-extralist.json');
+    appendNewIntroTokens(fullTokensList, './sources/paraswap.tokenlist.json');
 }
 
 start();
