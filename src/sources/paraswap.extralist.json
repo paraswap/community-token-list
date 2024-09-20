@@ -1,9 +1,9 @@
 {
   "name": "ParaSwap Extra Token List",
-  "timestamp": "2023-07-25T15:27:56.728Z",
+  "timestamp": "2024-09-20T12:34:15.088Z",
   "version": {
     "major": 1,
-    "minor": 0,
+    "minor": 1,
     "patch": 1
   },
   "logoURI": "https://cdn.paraswap.io/token/token.png",
@@ -52,6 +52,14 @@
       "symbol": "GHO",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/30663/large/ghoaave.jpeg"
+    },
+    {
+      "chainId": 1,
+      "address": "0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5",
+      "symbol": "USD0",
+      "name": "Usual USD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/38272/standard/USD0LOGO.png?1716962811"
     },
     {
       "chainId": 1,
