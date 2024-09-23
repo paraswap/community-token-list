@@ -1,9 +1,17 @@
 {
   "name": "ParaSwap Extra Token List",
-  "timestamp": "2023-07-25T15:27:56.728Z",
-  "version": {"major": 1, "minor": 0, "patch": 1},
+  "timestamp": "2024-09-20T12:34:15.088Z",
+  "version": {
+    "major": 1,
+    "minor": 1,
+    "patch": 1
+  },
   "logoURI": "https://cdn.paraswap.io/token/token.png",
-  "keywords": ["ParaSwap", "Token Lists", "Extra"],
+  "keywords": [
+    "ParaSwap",
+    "Token Lists",
+    "Extra"
+  ],
   "tokens": [
     {
       "chainId": 1,
@@ -35,8 +43,7 @@
       "name": "Arbitrum",
       "symbol": "ARB",
       "decimals": 18,
-      "logoURI":
-        "https://assets.coingecko.com/asset_platforms/images/33/small/arbitrum.png"
+      "logoURI": "https://assets.coingecko.com/asset_platforms/images/33/small/arbitrum.png"
     },
     {
       "chainId": 1,
@@ -44,8 +51,23 @@
       "name": "Gho Token",
       "symbol": "GHO",
       "decimals": 18,
-      "logoURI":
-        "https://assets.coingecko.com/coins/images/30663/large/ghoaave.jpeg"
+      "logoURI": "https://assets.coingecko.com/coins/images/30663/large/ghoaave.jpeg"
+    },
+    {
+      "chainId": 1,
+      "address": "0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5",
+      "symbol": "USD0",
+      "name": "Usual USD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/38272/standard/USD0LOGO.png?1716962811"
+    },
+    {
+      "chainId": 1,
+      "address": "0x35d8949372d46b7a3d5a56006ae77b215fc69bc0",
+      "name": "USD0 Liquid Bond",
+      "symbol": "USD0++",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/39169/standard/0x35d8949372d46b7a3d5a56006ae77b215fc69bc0.png?1720798057"
     }
   ]
 }

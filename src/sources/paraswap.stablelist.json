@@ -1,10 +1,19 @@
 {
   "name": "ParaSwap Community Stablecoin Lists",
-  "timestamp": "2022-10-31T20:59:57.622Z",
-  "version": { "major": 1, "minor": 1, "patch": 0 },
+  "timestamp": "2024-09-20T12:34:15.088Z",
+  "version": {
+    "major": 1,
+    "minor": 1,
+    "patch": 1
+  },
   "tags": {},
   "logoURI": "https://uploads-ssl.webflow.com/617aa5e4225be2555942852c/6214d5c4db4ce4d976b5f1f9_logo_paraswap-handbook%20copy%201.svg",
-  "keywords": [ "ParaSwap", "Token Lists", "DAO", "Community" ],
+  "keywords": [
+    "ParaSwap",
+    "Token Lists",
+    "DAO",
+    "Community"
+  ],
   "tokens": [
     {
       "chainId": 1,
@@ -1398,6 +1407,14 @@
       "name": "USD Coin",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png?1696506694"
+    },
+    {
+      "chainId": 1,
+      "address": "0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5",
+      "symbol": "USD0",
+      "name": "Usual USD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/38272/standard/USD0LOGO.png?1716962811"
     }
   ]
 }
