@@ -68,6 +68,14 @@
       "symbol": "USD0++",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/39169/standard/0x35d8949372d46b7a3d5a56006ae77b215fc69bc0.png?1720798057"
+    },
+    {
+      "chainId": 1,
+      "address": "0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e",
+      "name": "USUAL",
+      "symbol": "USUAL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/51091/standard/USUAL.jpg?1730035787"
     }
   ]
 }
